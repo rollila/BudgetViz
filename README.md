@@ -1,29 +1,5 @@
-# datavis
+# Intearctive Data Visualization project, P4/2019
 
-## Project setup
-```
-yarn install
-```
+Miniproject for visualizing Finnish government budget data for 2018.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Data sourced from https://www.avoindata.fi/data/fi/dataset/valtion-budjettitalous
