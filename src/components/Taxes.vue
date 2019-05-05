@@ -1,6 +1,6 @@
 <template>
   <div class="taxes-container">
-    <h1 class="taxes-heading">Tax income, 2018 budget</h1>
+    <h1 class="taxes-heading">Tax income</h1>
     <div class="legend-container">
       <h4>{{ legendHeader }}</h4>
       <template v-if="activeDataset != null">
@@ -23,8 +23,6 @@ import Chart from 'chart.js';
 import ChartJsPlugin from 'chartjs-plugin-labels';
 import numeral from 'numeral';
 
-// import TaxesSubcategory from './Taxes-Subcategory';
-
 const colors = ['#003f5c',
 '#58508d',
 '#bc5090',
@@ -32,9 +30,6 @@ const colors = ['#003f5c',
 '#ffa600'];
 
 export default {
-  components: {
-   //  TaxesSubcategory
-  },
   props: {
     data: {
       type: Object,
