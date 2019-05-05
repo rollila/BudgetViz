@@ -11,5 +11,6 @@ module.exports = {
         skipEmptyLines: true
       })
       .end();
-  }
+  },
+  publicPath: process.env.NODE_ENV === "production" ? "/BudgetViz" : "/"
 };
