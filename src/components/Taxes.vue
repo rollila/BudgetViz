@@ -1,6 +1,9 @@
 <template>
   <div class="taxes-container">
     <h1 class="taxes-heading">Tax income</h1>
+    <div class="canvas-container">
+      <canvas id="taxes" ref="taxes"/>
+    </div>
     <div class="legend-container">
       <h4>{{ legendHeader }}</h4>
       <template v-if="activeDataset != null">
@@ -9,9 +12,6 @@
           {{ activeDataset.labels[i - 1] }}: {{ formatCurrency(activeDataset.data[i - 1]) }}
         </div>
       </template>
-    </div>
-    <div class="canvas-container">
-      <canvas id="taxes" ref="taxes"/>
     </div>
   </div>
 </template>
@@ -184,7 +184,7 @@ export default {
 <style lang="scss" scoped>
 .taxes-container {
   position: relative;
-  max-width: 1800px;
+  max-width: 1100px;
   
   margin: 0 auto;
   box-sizing: border-box;  
@@ -204,9 +204,7 @@ export default {
   }
 
   .legend-container {
-    position: absolute;
-    left: 20px;
-    top: 180px;
+    margin: 20px auto;
     max-width: 400px;
 
     padding: 15px;
@@ -228,9 +226,10 @@ export default {
     }
   }
 
-  .canvas-container {    
+  .canvas-container {
     margin: 0 auto;
-    padding-left: 400px;
+    max-width: 1100px;
+    position: relative;
   }
 
 }
