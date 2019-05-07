@@ -7,7 +7,7 @@
       <br>
       To be implemented: Spending.</p>      
     </div>
-    <Taxes :data="taxData"/>
+    <Taxes :data="taxData" class="taxes"/>
     <Spending :data="spendingData"/>
   </div>
 </template>
@@ -102,6 +102,10 @@ body {
     text-align: left;
     padding: 0 20px;
     margin-bottom: 50px;
+  }
+
+  .taxes {
+    min-height: 950px;
   }
 }
 </style>

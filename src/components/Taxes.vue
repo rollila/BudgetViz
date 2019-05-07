@@ -18,16 +18,15 @@
 
 <script>
 /* eslint-disable */
+import chroma from 'chroma-js';
 
 import Chart from 'chart.js';
 import ChartJsPlugin from 'chartjs-plugin-labels';
 import numeral from 'numeral';
 
-const colors = ['#003f5c',
-'#58508d',
-'#bc5090',
-'#ff6361',
-'#ffa600'];
+Chart.Tooltip.positioners.custom = (elements, position) =>  ({x: elements[0]._chart.chartArea.right / 2, y: 0 })
+
+import { getPalette } from './colors';
 
 export default {
   props: {
@@ -57,7 +56,7 @@ export default {
     },
     datasets() {
       return [{
-        backgroundColor: colors.concat(),
+        backgroundColor: getPalette(this.labels.length),
         borderColor: this.labels.map(() => 'rgb(120, 120, 120)'),
         data: this.labels.map(key => this.data[key].total),
         labels: this.labels
@@ -86,6 +85,8 @@ export default {
           }
         },
         tooltips: {
+          position: 'custom',
+          caretSize: 0,
           callbacks: {
             label(tooltipItem, data) {
               const title = data.datasets[tooltipItem.datasetIndex].labels[tooltipItem.index];
@@ -102,29 +103,13 @@ export default {
     const component = this;
     const ctx = this.$refs.taxes.getContext('2d');
     this.chart = new Chart(ctx, {
-      type: 'doughnut',
+      type: 'pie',
       data: {
         labels: this.labels,
         datasets: this.datasets
       },
       options: {
         onHover(event, chartElements) {
-          const el = chartElements[0];
-          if (!el) {
-            const innerIndex = component.hasSelected ? 1 : 0;
-            component.resetBorderColors(innerIndex);
-            component.chart.update();
-            return;
-          }
-          if (component.hasSelected && el._datasetIndex === 0) {
-            component.resetBorderColors(1);
-            component.chart.update();
-            return;
-          };
-
-          component.resetBorderColors(el._datasetIndex);
-          component.highlightedIndex = el._index;
-          component.chart.data.datasets[el._datasetIndex].borderColor[el._index] = 'rgb(40, 190, 230)';
           component.chart.update();
         },
         onClick(event, chartElements) {
@@ -135,7 +120,7 @@ export default {
             if (el._datasetIndex === 0) return;
 
             component.chart.data.datasets.splice(0,1);
-            component.chart.data.datasets[0].backgroundColor = colors;
+            component.chart.data.datasets[0].backgroundColor = getPalette(component.chart.data.datasets[0].data.length);
            
             if (component.selectedIndex === el._index) {
               component.activeDataset = this.chart.data.datasets[0];
@@ -149,17 +134,18 @@ export default {
           const key = component.labels[el._index];
 
           const subsetData = {
-            backgroundColor: colors.concat(),
-            borderColor: colors.map(() => 'rgb(0, 0, 0)'),
+            backgroundColor: getPalette(component.data[key].items.length),
+            borderColor: component.data[key].items.map(() => 'rgb(0, 0, 0)'),
             data: component.data[key].items.map(item => Math.abs(item.Nettokertymä)),
-            labels: component.data[key].items.map(item => item.Momentti)
+            labels: component.data[key].items.map(item => item.Momentti),
+            hoverBackgroundColor: getPalette(component.data[key].items.length)
           }
 
           component.activeDataset = subsetData;
 
           component.chart.data.datasets.splice(0, 0, subsetData);
           component.chart.data.datasets[1].backgroundColor = component.labels.map(() => 'rgb(100, 100, 100)');
-          component.chart.data.datasets[1].backgroundColor[el._index] = colors[el._index];
+          component.chart.data.datasets[1].backgroundColor[el._index] = getPalette(component.chart.data.datasets[1].data.length)[el._index];
 
           component.chart.update();
         },
