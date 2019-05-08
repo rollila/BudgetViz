@@ -12,7 +12,7 @@ Vuosi,Paaluokka/Osasto,Luku,Momentti,Alkup.talousarvio,Lisätalousarvio,Voimassa
 2018,Parliament,National Audit Office,Operating expenses of the National Audit Office,14937000,0,14937000,14937000,14937000,14937000,0,,,
 2018,Parliament,National Audit Office,Expenses on value added taxes,590000,0,590000,590000,510517,38,510517,38,79482,62
 2018,Parliament,Other expenses of the Parliament,Support of the group offices of parliamentary groups,4083000,0,4083000,4083000,4081770,4081770,1230,,,
-2018,President of the Republic,President of the Republic,Remuneration of the President of the Republic,126000,0,126000,126000,126000,126000,0,,,
+2018,President of the Republic,President of the Republic,Salary of the President of the Republic,126000,0,126000,126000,126000,126000,0,,,
 2018,President of the Republic,President of the Republic,Operating expenses of the President of the Republic,199000,0,199000,199000,199000,199000,0,,,
 2018,President of the Republic,President of the Republic,Expenses on foreign visits and conferences,2550000,0,2550000,2550000,1169519,25,1169519,25,1380480,75
 2018,President of the Republic,Office of the President of the Republic,Operating expenses of the Office of the President of the Republic,8055000,45000,8100000,8100000,8100000,8100000,0,,,
@@ -20,7 +20,7 @@ Vuosi,Paaluokka/Osasto,Luku,Momentti,Alkup.talousarvio,Lisätalousarvio,Voimassa
 2018,President of the Republic,Office of the President of the Republic,Expenses on value added taxes,2500000,0,2500000,2500000,2223795,75,2223795,75,276204,25
 2018,President of the Republic,Office of the President of the Republic,Renovations,5000000,0,5000000,5000000,5562621,14,5562621,14,-562621,14
 2018,Prime Minister’s Office,Administration,Operating expenses of the Prime Minister’s Office,123297000,4359000,127656000,127656000,127656000,127656000,0,,,
-2018,Prime Minister’s Office,Administration,Salaries of ministeris and their special aides,6510000,0,6510000,6510000,6007752,32,6007752,32,502247,68
+2018,Prime Minister’s Office,Administration,Salaries of ministers and their special aides,6510000,0,6510000,6510000,6007752,32,6007752,32,502247,68
 2018,Prime Minister’s Office,Administration,Salaries of national experts of the European Union,1000000,0,1000000,1000000,1000000,1000000,0,,,
 2018,Prime Minister’s Office,Administration,Travel expenses of ministers and their aides,867000,0,867000,867000,867000,867000,0,,,
 2018,Prime Minister’s Office,Administration,Research operations of the Prime Minister’s Office,11400000,0,11400000,11400000,11400000,11400000,0,,,
@@ -138,13 +138,13 @@ Vuosi,Paaluokka/Osasto,Luku,Momentti,Alkup.talousarvio,Lisätalousarvio,Voimassa
 2018,Ministry of Finance,Transfers to the Autonomous Region of Åland,Support of the autonomous government of Åland,237302000,9520000,246822000,246822000,244648861,86,244648861,86,2173138,14
 2018,Ministry of Finance,Transfers to the Autonomous Region of Åland,Tax refunds to Åland,15000000,200000,15200000,15200000,15196476,15196476,3524,,,
 2018,Ministry of Finance,Transfers to the Autonomous Region of Åland,"Return of proceeds from taxation of lotteries, competitions and games to Åland",13000000,-586000,12414000,12414000,12413124,9,12413124,9,875,91
-2018,Ministry of Finance,Municipal support,Development of common digital infrastructure and informatin management in the public sector,2475000,3600000,6075000,6075000,6075000,6075000,0,,,
+2018,Ministry of Finance,Municipal support,Development of common digital infrastructure and information management in the public sector,2475000,3600000,6075000,6075000,6075000,6075000,0,,,
 2018,Ministry of Finance,Municipal support,Development and support of administrative and service structures,200000,0,200000,200000,200000,200000,0,,,
 2018,Ministry of Finance,Municipal support,State subsidy to municipalities for organizing basic services,8576670000,0,8576670000,8576670000,8575483792,8575483792,1186208,,,
 2018,Ministry of Finance,Municipal support,Economic support for fusion of municipalities,7990000,0,7990000,7990000,7500253,7500253,489747,,,
 2018,Ministry of Finance,Support of employment and industry,Energy tax aid,261000000,23000000,284000000,284000000,272634093,64,272634093,64,11365906,36
 2018,Ministry of Finance,EU and international organizations,Operating expenses of the Financial Stability Authority,2947000,0,2947000,2947000,2947000,2947000,0,,,
-2018,Ministry of Finance,EU and international organizations,Participation of the European Union in compensatiion of travel expenses,1500000,0,1500000,1500000,1500000,1500000,0,,,
+2018,Ministry of Finance,EU and international organizations,Participation of the European Union in compensation of travel expenses,1500000,0,1500000,1500000,1500000,1500000,0,,,
 2018,Ministry of Finance,EU and international organizations,Host compensation to the Nordic Investment Bank,11550000,0,11550000,11550000,11544550,93,11544550,93,5449,7
 2018,Ministry of Finance,EU and international organizations,Transfer to the Financial Stability Fund,18493000,0,18493000,18493000,18493000,18493000,0,,,
 2018,Ministry of Finance,EU and international organizations,Redemption of commitments to international financial institutions,170000,0,170000,170000,0,0,170000,,,
@@ -306,11 +306,11 @@ Vuosi,Paaluokka/Osasto,Luku,Momentti,Alkup.talousarvio,Lisätalousarvio,Voimassa
 2018,Ministry of Economic Affairs and Employment,Administration,Capital investment in VTT Technical Research Centre of Finland,0,15000000,15000000,15000000,15000000,15000000,0,,,
 2018,Ministry of Economic Affairs and Employment,Administration,Stock acquisitions,0,46000000,46000000,46000000,46000000,46000000,0,,,
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Operating expenses of the Geological Survey of Finland,30714000,228000,30942000,30942000,30942000,30942000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.06. Innovaatiorahoituskeskus Tekesin toimintamenot,84021000,3179000,87200000,87200000,87200000,87200000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Operating expenses of the Finnish Funding Agency for Technology and Innovation,84021000,3179000,87200000,87200000,87200000,87200000,0,,,
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Promotion of material efficiency,400000,0,400000,400000,400000,400000,0,,,
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,"Promotion of research, development and innovation",250900000,30500000,281400000,281400000,260362670,83,260362670,83,21037329,17
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Special subsidy for the research infrastructure of VTT Ltd,1500000,0,1500000,1500000,1500000,1500000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Development of growth ecosystems and innovative public procurements,5000000,0,5000000,5000000,5000000,5000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Development of growth ecosystems and innovative public procurement,5000000,0,5000000,5000000,5000000,5000000,0,,,
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Promotion of cleantech and bioeconomy-based solutions and commercialization of innovations,49300000,0,49300000,49300000,49300000,49300000,0,,,
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Subsidy for development and investments in the circular economy,2000000,0,2000000,2000000,2000000,2000000,0,,,
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Innovation subsidy for shipbuilding,0,0,0,0,10000000,10000000,-10000000,,,
