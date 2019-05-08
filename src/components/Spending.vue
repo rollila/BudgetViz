@@ -10,7 +10,10 @@
         <div v-for="i in activeDataset.labels.length" :key="i" class="legend-block">
           <div
             class="legend-colorbox"
-            :class="{ 'legend-colorbox--clickable': selectedCenterIndex == null }"
+            :class="{ 
+              'legend-colorbox--clickable': selectedCenterIndex == null,
+              'legend-colorbox--highlighted': isHighlighted(i - 1)
+              }"
             :style="{ 'background-color': activeDataset.backgroundColor[i - 1] }"
             @click="onClickLegend(i - 1)"
             @mouseenter="onHoverLegend(i - 1, true)"
@@ -49,7 +52,9 @@ export default {
   data() {
     return {
       selectedCenterIndex: null,
-      selectedInnerIndex: null      
+      selectedInnerIndex: null,
+      hoveredIndex: null,
+      hoveredDatasetIndex: null
     };    
   },
   computed: {
@@ -119,6 +124,17 @@ export default {
         datasets: this.datasets
       },
       options: {
+        onHover(event, chartElements) {
+          const el = chartElements[0];
+          if (!el) {
+            component.hoveredIndex = null;
+            component.hoveredDatasetIndex = null;
+            return;
+          }
+
+          component.hoveredIndex = el._index;
+          component.hoveredDatasetIndex = el._datasetIndex;
+        },
         onClick(event, chartElements) {
           const el = chartElements[0];
           if (!el) return;
@@ -223,6 +239,9 @@ export default {
         activeDataset.backgroundColor[index] = getPalette(activeDataset.data.length)[index];
       }      
       this.chart.update();
+    },
+    isHighlighted(index) {
+      return this.activeDataset === this.datasets[this.hoveredDatasetIndex] && this.hoveredIndex === index;
     }
   }
 }
@@ -289,7 +308,11 @@ export default {
 
         &:hover {
           border: 1px solid rgb(210, 210, 210);
-        }        
+        }
+      }
+
+      &--highlighted {
+        border: 1px solid rgb(210, 210, 210); 
       }
     }
   }

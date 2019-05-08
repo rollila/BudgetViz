@@ -10,7 +10,10 @@
         <div v-for="i in activeDataset.labels.length" :key="i" class="legend-block">
           <div
             class="legend-colorbox"
-            :class="{ 'legend-colorbox--clickable': !hasSelected }"
+            :class="{ 
+              'legend-colorbox--clickable': !hasSelected,
+              'legend-colorbox--highlighted': isHighlighted(i - 1)
+              }"
             :style="{ 'background-color': activeDataset.backgroundColor[i - 1] }"
             @click="onClickLegend(i - 1)"
             @mouseenter="onHoverLegend(i - 1, true)"
@@ -44,7 +47,8 @@ export default {
     return {
       activeDataset: null,
       selectedIndex: null,
-      highlightedIndex: null
+      hoveredIndex: null,
+      hoveredDatasetIndex: null
     };    
   },
   computed: {
@@ -110,6 +114,7 @@ export default {
     }
   },
   mounted() {
+    const component = this;
     const ctx = this.$refs.taxes.getContext('2d');
     this.chart = new Chart(ctx, {
       type: 'pie',
@@ -118,6 +123,16 @@ export default {
         datasets: this.datasets
       },
       options: {
+        onHover(event, chartElements) {
+          const el = chartElements[0];
+          if (el == null) {
+            component.hoveredIndex = null;
+            component.hoveredDatasetIndex = null;
+            return;
+          }
+          component.hoveredIndex = el._index;
+          component.hoveredDatasetIndex = el._datasetIndex;
+        },
         onClick: this.onClick,
         ...this.options
       }
@@ -128,9 +143,6 @@ export default {
   methods: {
     formatCurrency(amount) {
       return `${numeral(amount).format('0.00a')} €`;
-    },
-    resetBorderColors(datasetIndex) {
-      this.chart.data.datasets[datasetIndex].borderColor[this.highlightedIndex] = 'rgb(120, 120, 120)';
     },
     onClick(event, chartElements) {
       const el = chartElements[0];
@@ -181,6 +193,9 @@ export default {
         this.datasets[0].backgroundColor[index] = getPalette(this.datasets[0].data.length)[index];
       }      
       this.chart.update();
+    },
+    isHighlighted(index) {
+      return this.activeDataset === this.chart.data.datasets[this.hoveredDatasetIndex] && this.hoveredIndex === index;
     }
   }
 }
@@ -237,6 +252,10 @@ export default {
         &:hover {
           border: 1px solid rgb(210, 210, 210);
         }
+      }
+
+      &--highlighted {
+        border: 1px solid rgb(210, 210, 210);
       }
     }
   }
