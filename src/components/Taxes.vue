@@ -62,7 +62,7 @@ export default {
     datasets() {
       return [{
         backgroundColor: getPalette(this.labels.length),
-        borderColor: this.labels.map(() => 'rgb(120, 120, 120)'),
+        borderColor: this.labels.map(() => 'rgb(0, 0, 0)'),
         data: this.labels.map(key => this.data[key].total),
         labels: this.labels,
         weight: 0.4,

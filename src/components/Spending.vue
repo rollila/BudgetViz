@@ -219,10 +219,8 @@ export default {
       const currentColor = activeDataset.backgroundColor[index];
       if (hoverState) {
         activeDataset.backgroundColor[index] = chroma(currentColor).saturate(1).darken(0.3);
-        activeDataset.borderColor[index] = 'rgb(210, 210, 210)';
       } else {
         activeDataset.backgroundColor[index] = getPalette(activeDataset.data.length)[index];
-        activeDataset.borderColor[index] = 'rgb(0, 0, 0)';
       }      
       this.chart.update();
     }
