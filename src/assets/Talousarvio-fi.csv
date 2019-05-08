@@ -4,7 +4,7 @@ Vuosi,Paaluokka/Osasto,Luku,Momentti,Alkup.talousarvio,Lisätalousarvio,Voimassa
 2018,Parliament,Parliamentary Office,Operating expenses related to renovations,2482000,0,2482000,2482000,2212941,87,2212941,87,269058,13
 2018,Parliament,Parliamentary Office,Expenses on value added taxes,6800000,0,6800000,6800000,6317508,29,6317508,29,482491,71
 2018,Parliament,Parliamentary Office,Assistant aid to parliamentary groups,3531000,0,3531000,3531000,3563624,93,3563624,93,-32624,93
-2018,Parliament,Parliamentary Office,IT management procurements and development projects,4000000,0,4000000,4000000,4000000,4000000,0,,,
+2018,Parliament,Parliamentary Office,IT management procurement and development projects,4000000,0,4000000,4000000,4000000,4000000,0,,,
 2018,Parliament,Parliamentary Office,Renovations on parliamentary buildings,4000000,0,4000000,4000000,4000000,4000000,0,,,
 2018,Parliament,Parliamentary Ombudsman,Operating expenses of the Office of the Parliamentary Ombudsman,6061000,0,6061000,6061000,6083070,15,6083070,15,-22070,15
 2018,Parliament,Institute of International Affairs,Operating expenses of the Institute of International Affairs,3398000,0,3398000,3398000,3398000,3398000,0,,,
@@ -173,7 +173,7 @@ Vuosi,Paaluokka/Osasto,Luku,Momentti,Alkup.talousarvio,Lisätalousarvio,Voimassa
 2018,Ministry of Education and Culture,Vocational education,Common expenses of vocational education,26737000,0,26737000,26737000,26737000,26737000,0,,,
 2018,Ministry of Education and Culture,Vocational education,Government contribution and grant for operating costs of vocational education,774071000,26000000,800071000,800071000,799116281,87,799116281,87,954718,13
 2018,Ministry of Education and Culture,Vocational education,Expertise programme of young adults,5048000,0,5048000,5048000,5000000,5000000,48000,,,
-2018,Ministry of Education and Culture,Higher education and research,Opearting expenses of the Academy of Finland,11605000,84000,11689000,11689000,11689000,11689000,0,,,
+2018,Ministry of Education and Culture,Higher education and research,Operating expenses of the Academy of Finland,11605000,84000,11689000,11689000,11689000,11689000,0,,,
 2018,Ministry of Education and Culture,Higher education and research,Operating expenses of the National Archives of Finland,17031000,792000,17823000,17823000,17823000,17823000,0,,,
 2018,Ministry of Education and Culture,Higher education and research,Operating expenses of the Institute for the Languages of Finland,1113000,5000,1118000,1118000,1118000,1118000,0,,,
 2018,Ministry of Education and Culture,Higher education and research,Operating expenses of the National Repository Library,1648000,8000,1656000,1656000,1656000,1656000,0,,,
@@ -211,238 +211,238 @@ Vuosi,Paaluokka/Osasto,Luku,Momentti,Alkup.talousarvio,Lisätalousarvio,Voimassa
 2018,Ministry of Education and Culture,Art and culture,Digital cultural heritage accessibility and preservation,1950000,0,1950000,1950000,1950000,1950000,0,,,
 2018,Ministry of Education and Culture,Art and culture,Expansion of the collections of the Finnish National Gallery,739000,0,739000,739000,739000,739000,0,,,
 2018,Ministry of Education and Culture,Art and culture,Property renovations and maintenance,3688000,0,3688000,3688000,3688000,3688000,0,,,
-2018,Ministry of Education and Culture,Art and culture,29.80.95. Kulttuuriympäristön suojelusta aiheutuvat menot,50000,0,50000,50000,0,0,50000,,,
-2018,Ministry of Education and Culture,Art and culture,29.80.96. Lahjoitus Suomalais-virolaisen kulttuurisäätiön pääomaan,6000000,1000000,7000000,7000000,7000000,7000000,0,,,
-2018,Ministry of Education and Culture,Sports,29.90.30. Avustus Liikkuva opiskelu -ohjelmaan,7000000,0,7000000,7000000,7000000,7000000,0,,,
-2018,Ministry of Education and Culture,Sports,29.90.50. Rahapelitoiminnan voittovarat urheilun ja liikuntakasvatuksen edistämiseen,164939000,0,164939000,164939000,163300941,69,163300941,69,1638058,31
-2018,Ministry of Education and Culture,Sports,29.90.52. Valtionosuus liikunnan koulutuskeskuksille ja rahoitus liikuntatieteellisten hankkeiden arviointikustannuksiin,1494000,0,1494000,1494000,1494000,1494000,0,,,
-2018,Ministry of Education and Culture,Youth work,29.91.50. Rahapelitoiminnan voittovarat nuorisotyön edistämiseen,54770000,0,54770000,54770000,53294828,46,53294828,46,1475171,54
-2018,Ministry of Education and Culture,Youth work,29.91.51. Nuorten työpajatoiminta ja etsivä nuorisotyö,19923000,0,19923000,19923000,19923000,19923000,0,,,
-2018,Ministry of Education and Culture,Youth work,29.91.52. Eräät avustukset,1800000,0,1800000,1800000,1800000,1800000,0,,,
-2018,Ministry of Agriculture and Forestry,Administration and research,30.01.01. Maa- ja metsätalousministeriön toimintamenot,24010000,208000,24218000,24218000,24218000,24218000,0,,,
-2018,Ministry of Agriculture and Forestry,Administration and research,30.01.05. Luonnonvarakeskuksen toimintamenot,70004000,566000,70570000,70570000,70570000,70570000,0,,,
-2018,Ministry of Agriculture and Forestry,Administration and research,30.01.22. Tutkimus ja kehittäminen,1343000,0,1343000,1343000,1343000,1343000,0,,,
-2018,Ministry of Agriculture and Forestry,Administration and research,30.01.23. Hallinnolliset järjestelyt,5120000,0,5120000,5120000,5120000,5120000,0,,,
-2018,Ministry of Agriculture and Forestry,Administration and research,30.01.29. Maa- ja metsätalousministeriön hallinnonalan arvonlisäveromenot,27532000,0,27532000,27532000,28335104,45,28335104,45,-803104,45
-2018,Ministry of Agriculture and Forestry,Administration and research,30.01.66. Eräät jäsenmaksut ja rahoitusosuudet,4353000,0,4353000,4353000,4163721,55,4163721,55,189278,45
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.40. Maatalouden aloittamis- ja investointiavustukset,75276000,0,75276000,75276000,75276000,75276000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.41. Maaseutuelinkeinotoiminnan korkotuki,25000000,-10000000,15000000,15000000,11031172,18,11031172,18,3968827,82
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.42. Luopumistuet ja -eläkkeet,58330000,0,58330000,58330000,58330000,58330000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.43. Eläinten hyvinvointikorvaukset,67767000,0,67767000,67767000,67767000,67767000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.44. Maatalouden toimintaedellytysten turvaaminen,0,7500000,7500000,7500000,7500000,7500000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.50. Valtionapu maaseudun elinkeinojen kehittämiseen,5266000,0,5266000,5266000,5266000,5266000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.51. Porotalouden edistäminen,1843000,0,1843000,1843000,1843000,1843000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.54. Rahapelitoiminnan tuotolla rahoitettava hevoskasvatuksen ja  hevosurheilun edistäminen,40092000,90000,40182000,40182000,40182000,40182000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.55. Valtionapu 4H-toimintaan,3905000,0,3905000,3905000,3905000,3905000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.63. Maaseudun kehittäminen,2000000,0,2000000,2000000,2000000,2000000,0,,,
-2018,Ministry of Agriculture and Forestry,Rural development,30.10.64. EU:n ja valtion rahoitusosuus alueelliseen ja paikalliseen maaseudun kehittämiseen,136800000,27000000,163800000,163800000,154985316,33,154985316,33,8814683,67
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.02. Elintarviketurvallisuusviraston toimintamenot,38125000,1474000,39599000,39599000,39599000,39599000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.03. Maaseutuviraston toimintamenot,22178000,1943000,24121000,24121000,24121000,24121000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.20. Eläinlääkintähuolto ja kasvintuhoojien torjunta,5899000,0,5899000,5899000,7436731,57,7436731,57,-1537731,57
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.40. Maa- ja puutarhatalouden kansallinen tuki,325400000,-2060000,323340000,323340000,323340000,323340000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.41. EU-tulotuki ja EU-markkinatuki,531130000,15000000,546130000,546130000,539921531,92,539921531,92,6208468,8
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.43. Ympäristökorvaukset luonnonmukainen tuotanto neuvonta ja ei-tuotannolliset investoinnit,290710000,0,290710000,290710000,290710000,290710000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.44. Luonnonhaittakorvaukset,518738000,0,518738000,518738000,518738000,518738000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.46. EU:n osarahoittama ruokaketjun kehittäminen,5705000,0,5705000,5705000,5705000,5705000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.47. Kansallinen ruokaketjun kehittäminen,3119000,3500000,6619000,6619000,6619000,6619000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.60. Siirto interventiorahastoon,200000,0,200000,200000,200000,200000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.61. Siirto Maatilatalouden kehittämisrahastoon,49000000,0,49000000,49000000,49000000,49000000,0,,,
-2018,Ministry of Agriculture and Forestry,Agricultural and food economy,30.20.62. Eräät valtionavut,5717000,0,5717000,5717000,5717000,5717000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.20. Kalakannan hoitovelvoitteet,3000000,0,3000000,3000000,3000000,3000000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.21. Vesivarojen käytön ja hoidon menot,13520000,45000,13565000,13565000,13565000,13565000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.22. Luonnonvara- ja biotalouden edistäminen,14880000,0,14880000,14880000,14880000,14880000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.31. Vesi- ja kalataloushankkeiden tukeminen,8486000,0,8486000,8486000,8486000,8486000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.40. Eräät luonnonvaratalouden korvaukset,1745000,0,1745000,1745000,851376,95,851376,95,893623,5
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.41. Hirvieläinten aiheuttamien vahinkojen korvaaminen,4575000,0,4575000,4575000,4575000,4575000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.42. Petoeläinten aiheuttamien vahinkojen korvaaminen,8450000,0,8450000,8450000,8450000,8450000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.44. Tuki puuntuotannon kestävyyden turvaamiseen,56230000,0,56230000,56230000,49096656,1,49096656,1,7133343,9
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.45. Metsäluonnon hoidon edistäminen,5027000,0,5027000,5027000,5027000,5027000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.46. Valtionapu Suomen metsäkeskukselle,39900000,283000,40183000,40183000,40183000,40183000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.50. Riistatalouden edistäminen,11920000,0,11920000,11920000,11920000,11920000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.51. Kalatalouden edistäminen,10250000,0,10250000,10250000,10250000,10250000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.53. Eräät luonnonvaratalouden valtionavut,1432000,0,1432000,1432000,1432000,1432000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.62. Elinkeinokalatalouden edistäminen,20362000,6414000,26776000,26776000,26776000,26776000,0,,,
-2018,Ministry of Agriculture and Forestry,Natural resources,30.40.83. Lainat puuntuotannon kestävyyden turvaamiseen,50000,0,50000,50000,50000,50000,0,,,
-2018,Ministry of Agriculture and Forestry,Metsähallitus,30.64.50. Metsähallituksen eräät julkiset hallintotehtävät,7554000,40000,7594000,7594000,7594000,7594000,0,,,
-2018,Ministry of Agriculture and Forestry,Land survey and information resources,30.70.01. Maanmittauslaitoksen toimintamenot,50237000,1147000,51384000,51384000,51384000,51384000,0,,,
-2018,Ministry of Agriculture and Forestry,Land survey and information resources,30.70.40. Kiinteistötoimitusten tukemisesta aiheutuvat menot,4200000,0,4200000,4200000,4200000,4200000,0,,,
-2018,Ministry of Transport and Communications,Administration and common expenses,31.01.01. Liikenne- ja viestintäministeriön toimintamenot,14281000,80000,14361000,14361000,14361000,14361000,0,,,
-2018,Ministry of Transport and Communications,Administration and common expenses,31.01.21. Liikenne- ja viestintäministeriön hallinnonalan tuottavuusmääräraha,1660000,0,1660000,1660000,1660000,1660000,0,,,
-2018,Ministry of Transport and Communications,Administration and common expenses,31.01.29. Liikenne- ja viestintäministeriön hallinnonalan arvonlisäveromenot,479280000,0,479280000,479280000,438111503,2,438111503,2,41168496,8
-2018,Ministry of Transport and Communications,Administration and common expenses,31.01.88. Osakehankinnat,2000000,0,2000000,2000000,2000000,2000000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.01. Väyläviraston toimintamenot,73014000,535000,73549000,73549000,73549000,73549000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.20. Perusväylänpito,1406800000,61690000,1468490000,1468490000,1468490000,1468490000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.35. Valtionavustus länsimetron rakentamiseen,31500000,0,31500000,31500000,31500000,31500000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.36. Valtionavustus raideliikennehankkeiden rakentamiseen,16100000,0,16100000,16100000,16100000,16100000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.37. Valtionavustus kävelyn ja pyöräilyn edistämiseen ja kuntien joukkoliikennehankkeisiin,0,3500000,3500000,3500000,3500000,3500000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.41. Valtionavustus eräiden lentopaikkojen rakentamiseen ja ylläpitoon,2490000,2000000,4490000,4490000,4490000,4490000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.50. Valtionavustus yksityisten teiden kunnossapitoon ja parantamiseen,13000000,0,13000000,13000000,13000000,13000000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.76. Maa- ja vesialueiden hankinnat ja korvaukset,34997000,0,34997000,34997000,18792824,75,18792824,75,16204175,25
-2018,Ministry of Transport and Communications,Transportation,31.10.77. Väyläverkon kehittäminen,334950000,28900000,363850000,363850000,363850000,363850000,0,,,
-2018,Ministry of Transport and Communications,Transportation,31.10.79. Elinkaarirahoitushankkeet,125000000,0,125000000,125000000,125000000,125000000,0,,,
-2018,Ministry of Transport and Communications,Government services for transportation and communications,31.20.01. Liikenne- ja viestintäviraston toimintamenot,46953000,160000,47113000,47113000,47113000,47113000,0,,,
-2018,Ministry of Transport and Communications,Government services for transportation and communications,31.20.40. Ajoneuvojen romutuspalkkio,8000000,0,8000000,8000000,8000000,8000000,0,,,
-2018,Ministry of Transport and Communications,Government services for transportation and communications,31.20.41. Tieliikenteen turvallisuustoiminnan edistäminen,9100000,0,9100000,9100000,9100000,9100000,0,,,
-2018,Ministry of Transport and Communications,Government services for transportation and communications,31.20.42. Sähkökäyttöisten henkilöautojen sekä henkilöautojen kaasu- ja etanolikonversioiden hankinta- ja konversiotuki,6000000,0,6000000,6000000,6000000,6000000,0,,,
-2018,Ministry of Transport and Communications,Transportation support and purchases,31.30.42. Valtionavustus koulutuksesta,841000,0,841000,841000,841000,841000,0,,,
-2018,Ministry of Transport and Communications,Transportation support and purchases,31.30.43. Meriliikenteessä käytettävien alusten kilpailukyvyn parantaminen,101420000,0,101420000,101420000,84332970,78,84332970,78,17087029,22
-2018,Ministry of Transport and Communications,Transportation support and purchases,31.30.51. Luotsauksen hintatuki,4200000,0,4200000,4200000,4200000,4200000,0,,,
-2018,Ministry of Transport and Communications,Transportation support and purchases,31.30.63. Joukkoliikenteen palvelujen osto ja kehittäminen,89974000,10000000,99974000,99974000,99974000,99974000,0,,,
-2018,Ministry of Transport and Communications,Transportation support and purchases,31.30.64. Saariston yhteysalusliikennepalvelujen ostot ja kehittäminen,12683000,2000000,14683000,14683000,14683000,14683000,0,,,
-2018,Ministry of Transport and Communications,Transportation support and purchases,31.30.66. Yhteysalusliikennepalvelujen ostosopimukset,5303000,-2000000,3303000,3303000,3303000,3303000,0,,,
-2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",31.40.01. Viestintäviraston toimintamenot,13156000,66000,13222000,13222000,13222000,13222000,0,,,
-2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",31.40.45. Yleisen uutis- ja ajankohtaistoiminnan ja kansallisen uutistoimistotoiminnan tuki,2000000,1500000,3500000,3500000,3500000,3500000,0,,,
-2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",31.40.50. Valtionavustus valtakunnallisen laajakaistahankkeen toteuttamiseen,0,13142000,13142000,13142000,13142000,13142000,0,,,
-2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",31.40.60. Siirto valtion televisio- ja radiorahastoon,507948000,0,507948000,507948000,507948000,507948000,0,,,
-2018,Ministry of Transport and Communications,"Weather, sea and climate services",31.50.01. Ilmatieteen laitoksen toimintamenot,45545000,614000,46159000,46159000,46159000,46159000,0,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.01. Työ- ja elinkeinoministeriön toimintamenot,32685000,189000,32874000,32874000,32874000,32874000,0,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.02. Elinkeino- liikenne- ja ympäristökeskusten toimintamenot,169255000,1172000,170427000,170427000,171937000,171937000,-1510000,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.20. Siviilipalvelus,4939000,0,4939000,4939000,3858602,6,3858602,6,1080397,94
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.21. Työ- ja elinkeinoministeriön hallinnonalan tuottavuusmääräraha,5056000,0,5056000,5056000,5732000,5732000,-676000,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.29. Työ- ja elinkeinoministeriön hallinnonalan arvonlisäveromenot,36072000,0,36072000,36072000,45219753,19,45219753,19,-9147753,19
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.40. Valtionavustus yritysten kansainvälistymiseen ja yrittäjyyden edistämiseen,18001000,650000,18651000,18651000,18651000,18651000,0,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.60. Siirrot hallinnonalan rahastoihin,20000,0,20000,20000,0,0,20000,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.66. Kansainvälisten järjestöjen jäsenmaksut ja rahoitusosuudet,8507000,0,8507000,8507000,8507000,8507000,0,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.88. Pääomasijoitus Teknologian tutkimuskeskus VTT Oy:lle,0,15000000,15000000,15000000,15000000,15000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Administration,32.01.89. Osakehankinnat,0,46000000,46000000,46000000,46000000,46000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.01. Geologian tutkimuskeskuksen toimintamenot,30714000,228000,30942000,30942000,30942000,30942000,0,,,
+2018,Ministry of Education and Culture,Art and culture,Expenses caused by protection of the cultural environment,50000,0,50000,50000,0,0,50000,,,
+2018,Ministry of Education and Culture,Art and culture,Donation to the Finnish-Estonian cultural foundation,6000000,1000000,7000000,7000000,7000000,7000000,0,,,
+2018,Ministry of Education and Culture,Sports,Funding for the Finnish Schools on the Move-programme,7000000,0,7000000,7000000,7000000,7000000,0,,,
+2018,Ministry of Education and Culture,Sports,Proceeds from regulation of gambling for the advancement of sports and physical education,164939000,0,164939000,164939000,163300941,69,163300941,69,1638058,31
+2018,Ministry of Education and Culture,Sports,State subsidy for sports education centres and funding for estimation expenses of sports science projects,1494000,0,1494000,1494000,1494000,1494000,0,,,
+2018,Ministry of Education and Culture,Youth work,Proceeds from regulation of gambling for the advancement of youth work,54770000,0,54770000,54770000,53294828,46,53294828,46,1475171,54
+2018,Ministry of Education and Culture,Youth work,Youth workshops and outreach youth work,19923000,0,19923000,19923000,19923000,19923000,0,,,
+2018,Ministry of Education and Culture,Youth work,Certain subsidies,1800000,0,1800000,1800000,1800000,1800000,0,,,
+2018,Ministry of Agriculture and Forestry,Administration and research,Operating expenses of the Ministry of Agriculture and Forestry,24010000,208000,24218000,24218000,24218000,24218000,0,,,
+2018,Ministry of Agriculture and Forestry,Administration and research,Operating expenses of Natural Resources Institute Finland,70004000,566000,70570000,70570000,70570000,70570000,0,,,
+2018,Ministry of Agriculture and Forestry,Administration and research,Research and development,1343000,0,1343000,1343000,1343000,1343000,0,,,
+2018,Ministry of Agriculture and Forestry,Administration and research,Administrative arrangements,5120000,0,5120000,5120000,5120000,5120000,0,,,
+2018,Ministry of Agriculture and Forestry,Administration and research,Expenses on value added taxes,27532000,0,27532000,27532000,28335104,45,28335104,45,-803104,45
+2018,Ministry of Agriculture and Forestry,Administration and research,Certain membership fees and funding contributions,4353000,0,4353000,4353000,4163721,55,4163721,55,189278,45
+2018,Ministry of Agriculture and Forestry,Rural development,Agricultural starting subsidies and investment aid,75276000,0,75276000,75276000,75276000,75276000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,Agricultural interest subsidy,25000000,-10000000,15000000,15000000,11031172,18,11031172,18,3968827,82
+2018,Ministry of Agriculture and Forestry,Rural development,Early retirement subsidy and pensions,58330000,0,58330000,58330000,58330000,58330000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,Animal welfare subsidies,67767000,0,67767000,67767000,67767000,67767000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,Safeguarding of prerequisites for agricultural operations,0,7500000,7500000,7500000,7500000,7500000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,State subsidy for development of rural occupations,5266000,0,5266000,5266000,5266000,5266000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,Promotion of the reindeer economy,1843000,0,1843000,1843000,1843000,1843000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,Promotion of horse breeding and horse sports funded by regulation of gambling,40092000,90000,40182000,40182000,40182000,40182000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,State subsidy for 4H activities,3905000,0,3905000,3905000,3905000,3905000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,Rural development,2000000,0,2000000,2000000,2000000,2000000,0,,,
+2018,Ministry of Agriculture and Forestry,Rural development,EU and state funding for regional and local rural development,136800000,27000000,163800000,163800000,154985316,33,154985316,33,8814683,67
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Operating expenses of the Finnish Food Safety Authority,38125000,1474000,39599000,39599000,39599000,39599000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Operating expenses for the Agency for Rural Affairs,22178000,1943000,24121000,24121000,24121000,24121000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Veterinary care and pest control,5899000,0,5899000,5899000,7436731,57,7436731,57,-1537731,57
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,National subsidy for land and garden cultivation,325400000,-2060000,323340000,323340000,323340000,323340000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,EU income subsidy and EU market subsidy,531130000,15000000,546130000,546130000,539921531,92,539921531,92,6208468,8
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,"Environmental subsidies, organic production, information and non-production-related investments",290710000,0,290710000,290710000,290710000,290710000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Subsidy for disadvantageous environmental conditions,518738000,0,518738000,518738000,518738000,518738000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Programme for development of the food chain partially funded by the EU,5705000,0,5705000,5705000,5705000,5705000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,National programme for development of the food chain,3119000,3500000,6619000,6619000,6619000,6619000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Transfer to the intervention fund,200000,0,200000,200000,200000,200000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Transfer to the Agricultural development fund,49000000,0,49000000,49000000,49000000,49000000,0,,,
+2018,Ministry of Agriculture and Forestry,Agricultural and food economy,Certain state subsidies,5717000,0,5717000,5717000,5717000,5717000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Fish stock maintenance,3000000,0,3000000,3000000,3000000,3000000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Water resource usage and maintenance expenses,13520000,45000,13565000,13565000,13565000,13565000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Promotion of natural resource- and bioeconomy,14880000,0,14880000,14880000,14880000,14880000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Promotion of water and fish industry initiatives,8486000,0,8486000,8486000,8486000,8486000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Certain natural resources related payments,1745000,0,1745000,1745000,851376,95,851376,95,893623,5
+2018,Ministry of Agriculture and Forestry,Natural resources,Compensation for damages caused by deer,4575000,0,4575000,4575000,4575000,4575000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Compensation for damages caused by carnivorous animals,8450000,0,8450000,8450000,8450000,8450000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Subsidy for securing sustainable wood production,56230000,0,56230000,56230000,49096656,1,49096656,1,7133343,9
+2018,Ministry of Agriculture and Forestry,Natural resources,Promotion of care for forest environments,5027000,0,5027000,5027000,5027000,5027000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,State subsidy for the Finnish Forest Centre,39900000,283000,40183000,40183000,40183000,40183000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Promotion of hunting,11920000,0,11920000,11920000,11920000,11920000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Promotion of fisheries,10250000,0,10250000,10250000,10250000,10250000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Certain natural resources related state subsidies,1432000,0,1432000,1432000,1432000,1432000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Promotion of the fisheries industry,20362000,6414000,26776000,26776000,26776000,26776000,0,,,
+2018,Ministry of Agriculture and Forestry,Natural resources,Loans for securing sustainable wood production,50000,0,50000,50000,50000,50000,0,,,
+2018,Ministry of Agriculture and Forestry,Metsähallitus,Certain public administrative tasks of Metsähallitus,7554000,40000,7594000,7594000,7594000,7594000,0,,,
+2018,Ministry of Agriculture and Forestry,Land survey and information resources,Operating expenses of the National Land Survey of Finland,50237000,1147000,51384000,51384000,51384000,51384000,0,,,
+2018,Ministry of Agriculture and Forestry,Land survey and information resources,Expenses caused by supporting cadastral procedures,4200000,0,4200000,4200000,4200000,4200000,0,,,
+2018,Ministry of Transport and Communications,Administration and common expenses,Operating expenses of the Ministry of Transport and Communications,14281000,80000,14361000,14361000,14361000,14361000,0,,,
+2018,Ministry of Transport and Communications,Administration and common expenses,Productivity development expenses,1660000,0,1660000,1660000,1660000,1660000,0,,,
+2018,Ministry of Transport and Communications,Administration and common expenses,Expenses on value added taxes,479280000,0,479280000,479280000,438111503,2,438111503,2,41168496,8
+2018,Ministry of Transport and Communications,Administration and common expenses,Stock acquisitions,2000000,0,2000000,2000000,2000000,2000000,0,,,
+2018,Ministry of Transport and Communications,Transportation,Operating expenses of the Finnish Transport Infrastructure Agency,73014000,535000,73549000,73549000,73549000,73549000,0,,,
+2018,Ministry of Transport and Communications,Transportation,Basic transport infrastructure maintenance,1406800000,61690000,1468490000,1468490000,1468490000,1468490000,0,,,
+2018,Ministry of Transport and Communications,Transportation,State subsidy for construction of the west metro,31500000,0,31500000,31500000,31500000,31500000,0,,,
+2018,Ministry of Transport and Communications,Transportation,State subsidy for construction of railway projects,16100000,0,16100000,16100000,16100000,16100000,0,,,
+2018,Ministry of Transport and Communications,Transportation,State subsidy for promotion of walking and biking and municipal public transport initiatives,0,3500000,3500000,3500000,3500000,3500000,0,,,
+2018,Ministry of Transport and Communications,Transportation,State subsidy for construction and maintenance of certain aerodromes,2490000,2000000,4490000,4490000,4490000,4490000,0,,,
+2018,Ministry of Transport and Communications,Transportation,State subsidy for maintenance and improvement of private roads,13000000,0,13000000,13000000,13000000,13000000,0,,,
+2018,Ministry of Transport and Communications,Transportation,Acquisition and remuneration of land and water areas,34997000,0,34997000,34997000,18792824,75,18792824,75,16204175,25
+2018,Ministry of Transport and Communications,Transportation,Development of transport networks,334950000,28900000,363850000,363850000,363850000,363850000,0,,,
+2018,Ministry of Transport and Communications,Transportation,Lifecycle funding projects,125000000,0,125000000,125000000,125000000,125000000,0,,,
+2018,Ministry of Transport and Communications,Government services for transportation and communications,Operating expenses of the Finnish Transport and Communications Agency,46953000,160000,47113000,47113000,47113000,47113000,0,,,
+2018,Ministry of Transport and Communications,Government services for transportation and communications,Vehicle scrapping fees,8000000,0,8000000,8000000,8000000,8000000,0,,,
+2018,Ministry of Transport and Communications,Government services for transportation and communications,Promotion of road traffic safety,9100000,0,9100000,9100000,9100000,9100000,0,,,
+2018,Ministry of Transport and Communications,Government services for transportation and communications,Subsidy for acquisition of electric cars and conversion of cars to natural gas or ethanol power,6000000,0,6000000,6000000,6000000,6000000,0,,,
+2018,Ministry of Transport and Communications,Transportation support and purchases,State subsidy for training,841000,0,841000,841000,841000,841000,0,,,
+2018,Ministry of Transport and Communications,Transportation support and purchases,Improvement of competitiveness of seafaring ships,101420000,0,101420000,101420000,84332970,78,84332970,78,17087029,22
+2018,Ministry of Transport and Communications,Transportation support and purchases,Price subsidy for pilotage,4200000,0,4200000,4200000,4200000,4200000,0,,,
+2018,Ministry of Transport and Communications,Transportation support and purchases,Public tranport services purchases and development,89974000,10000000,99974000,99974000,99974000,99974000,0,,,
+2018,Ministry of Transport and Communications,Transportation support and purchases,Archipelago ferry traffic purchases and development,12683000,2000000,14683000,14683000,14683000,14683000,0,,,
+2018,Ministry of Transport and Communications,Transportation support and purchases,Ferry services purchase agreements,5303000,-2000000,3303000,3303000,3303000,3303000,0,,,
+2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",Operating expenses of the Finnish Communications Regulatory Authority,13156000,66000,13222000,13222000,13222000,13222000,0,,,
+2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",General news and current affairs activities and national news agency subsidies,2000000,1500000,3500000,3500000,3500000,3500000,0,,,
+2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",State subsidy for implementation of the nationwide broadband project,0,13142000,13142000,13142000,13142000,13142000,0,,,
+2018,Ministry of Transport and Communications,"Communications services, infrastructure and support",Transfer to state television and radio fund,507948000,0,507948000,507948000,507948000,507948000,0,,,
+2018,Ministry of Transport and Communications,"Weather, sea and climate services",Operating expenses of the Finnish Meteorological Institute,45545000,614000,46159000,46159000,46159000,46159000,0,,,
+2018,Ministry of Economic Affairs and Employment,Administration,Operating expenses of the Ministry of Economic Affairs and Employment,32685000,189000,32874000,32874000,32874000,32874000,0,,,
+2018,Ministry of Economic Affairs and Employment,Administration,"Operating expenses of the Centres for Economic Development, Transport and the Environment",169255000,1172000,170427000,170427000,171937000,171937000,-1510000,,,
+2018,Ministry of Economic Affairs and Employment,Administration,Civilian service,4939000,0,4939000,4939000,3858602,6,3858602,6,1080397,94
+2018,Ministry of Economic Affairs and Employment,Administration,Productivity development expenses,5056000,0,5056000,5056000,5732000,5732000,-676000,,,
+2018,Ministry of Economic Affairs and Employment,Administration,Expenses on value added taxes,36072000,0,36072000,36072000,45219753,19,45219753,19,-9147753,19
+2018,Ministry of Economic Affairs and Employment,Administration,State subsidy for promotion of enterpreneurship and enterprise internationalization,18001000,650000,18651000,18651000,18651000,18651000,0,,,
+2018,Ministry of Economic Affairs and Employment,Administration,Transfers to funds of the administrative branch,20000,0,20000,20000,0,0,20000,,,
+2018,Ministry of Economic Affairs and Employment,Administration,Membership fees and contributions to international associations,8507000,0,8507000,8507000,8507000,8507000,0,,,
+2018,Ministry of Economic Affairs and Employment,Administration,Capital investment in VTT Technical Research Centre of Finland,0,15000000,15000000,15000000,15000000,15000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Administration,Stock acquisitions,0,46000000,46000000,46000000,46000000,46000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Operating expenses of the Geological Survey of Finland,30714000,228000,30942000,30942000,30942000,30942000,0,,,
 2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.06. Innovaatiorahoituskeskus Tekesin toimintamenot,84021000,3179000,87200000,87200000,87200000,87200000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.28. Materiaalitehokkuuden edistäminen,400000,0,400000,400000,400000,400000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.40. Tutkimus- kehittämis- ja innovaatiotoiminnan tukeminen,250900000,30500000,281400000,281400000,260362670,83,260362670,83,21037329,17
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.41. Erityisavustus Teknologian tutkimuskeskus VTT Oy:n tutkimusinfrastruktuuriin,1500000,0,1500000,1500000,1500000,1500000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.42. Kasvuekosysteemien ja innovatiivisten julkisten hankintojen kehittäminen,5000000,0,5000000,5000000,5000000,5000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.43. Cleantech- ja biotalousratkaisujen sekä innovaatioiden kaupallistamisen tukeminen,49300000,0,49300000,49300000,49300000,49300000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.44. Kiertotalouden investointi- ja kehittämistuki,2000000,0,2000000,2000000,2000000,2000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.46. Laivanrakennuksen innovaatiotuki,0,0,0,0,10000000,10000000,-10000000,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.47. Finnvera Oyj:n korkotuet ja tappiokorvaukset,56159000,-26153000,30006000,30006000,19619946,59,19619946,59,10386053,41
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.48. Korko- ja muu tuki julkisesti tuetuille vienti- ja alusluotoille,42300000,0,42300000,42300000,26219360,24,26219360,24,16080639,76
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.49. Valtionavustus Teknologian tutkimuskeskus VTT Oy:n toimintaan,89303000,0,89303000,89303000,89303000,89303000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.50. Avustus kansainvälisen teknologiapalkinnon maksamiseen,1000000,0,1000000,1000000,1000000,1000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.51. Naisille suunnattu innovaatiopalkinto,118000,0,118000,118000,118000,118000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.80. Lainat Suomen Vientiluotto Oy:n jälleenrahoitustoimintaan,96986000,124300000,221286000,221286000,214786638,22,214786638,22,6499361,78
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.82. Lainat Finnvera Oyj:n varainhankintaan,10000,0,10000,10000,0,0,10000,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.83. Lainat tutkimus- ja innovaatiotoimintaan,141000000,20800000,161800000,161800000,161793254,95,161793254,95,6745,5
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.87. Pääomalainat teollisuuden uudistumiseen ja yritysvetoisten liiketoimintaekosysteemien kehittämiseen,6000000,0,6000000,6000000,5914375,5914375,85625,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.20.89. Pääomasijoitus Business Finland Venture Capital Oy:lle,11800000,-5800000,6000000,6000000,6000000,6000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.30.01. Työ- ja elinkeinotoimistojen toimintamenot,163076000,1258000,164334000,164334000,163524000,163524000,810000,,,
-2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,32.30.51. Julkiset työvoima- ja yrityspalvelut,327050000,29000000,356050000,356050000,321050000,321050000,35000000,,,
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.01. Kilpailu- ja kuluttajaviraston toimintamenot,11188000,106000,11294000,11294000,11294000,11294000,0,,,
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.03. Patentti- ja rekisterihallituksen toimintamenot,9247000,-2700000,6547000,6547000,-1564660,8,-1564660,8,8111660,8
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.05. Turvallisuus- ja kemikaaliviraston toimintamenot,19071000,147000,19218000,19218000,19218000,19218000,0,,,
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.31. Korvaus talous- ja velkaneuvonnan järjestämisestä,4731000,0,4731000,4731000,4731000,4731000,0,,,
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.50. Valtionavustus kuluttajajärjestölle,872000,0,872000,872000,872000,872000,0,,,
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.51. Eräät merimiespalvelut,2572000,0,2572000,2572000,1548651,83,1548651,83,1023348,17
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.52. Palkkaturva,32000000,0,32000000,32000000,25141422,8,25141422,8,6858577,2
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.53. Matkustajien paluukuljetukset ja korvaukset,1000000,0,1000000,1000000,1000000,1000000,0,,,
-2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",32.40.95. Eräät oikeudenkäyntikulut ja korvaukset,50000,0,50000,50000,0,0,50000,,,
-2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,32.50.40. Alueellisten innovaatioiden ja kokeilujen käynnistäminen,10000000,7708000,17708000,17708000,17708000,17708000,0,,,
-2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,32.50.42. Yritysten kehittämishankkeiden tukeminen,12171000,4000000,16171000,16171000,12069408,12069408,4101592,,,
-2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,32.50.43. Kansainvälistymisavustus yritysten yhteishankkeisiin,1300000,0,1300000,1300000,426378,5,426378,5,873621,5
-2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,32.50.44. Alueellinen kuljetustuki,5000000,0,5000000,5000000,5000000,5000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,32.50.64. EU:n ja valtion rahoitusosuus EU:n rakennerahasto- ulkorajayhteistyö- ja muihin koheesiopolitiikan ohjelmiin,361478000,0,361478000,361478000,334422347,76,334422347,76,27055652,24
-2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,32.50.65. Työllisyysperusteiset siirtomenot investointeihin,1700000,0,1700000,1700000,0,0,1700000,,,
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.01. Energiaviraston toimintamenot,6513000,50000,6563000,6563000,6563000,6563000,0,,,
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.20. Energiatehokkuuden ja uusiutuvan energian käytön edistäminen,3500000,0,3500000,3500000,3500000,3500000,0,,,
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.40. Energiatuki,57694000,0,57694000,57694000,30708102,45,30708102,45,26985897,55
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.41. LNG-terminaalien investointituki,20482000,-6652000,13830000,13830000,13830000,13830000,0,,,
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.42. Valtiontuki sähköhuollon varmistamiseksi,0,135000,135000,135000,9590,88,9590,88,125409,12
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.43. Kioton mekanismit,220000,0,220000,220000,131111,39,131111,39,88888,61
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.44. Uusiutuvan energian tuotantotuki,314100000,-51900000,262200000,262200000,249808985,11,249808985,11,12391014,89
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.45. Uusiutuvan energian ja uuden energiateknologian investointituki,40000000,0,40000000,40000000,40000000,40000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.46. Päästökaupan epäsuorien kustannusten kompensaatiotuki,27000000,0,27000000,27000000,26752203,65,26752203,65,247796,35
-2018,Ministry of Economic Affairs and Employment,Energy policy,32.60.47. Sähköisen liikenteen ja biokaasun liikennekäytön infrastruktuurin edistäminen,3000000,0,3000000,3000000,3000000,3000000,0,,,
-2018,Ministry of Economic Affairs and Employment,Integration,32.70.03. Maahanmuuttajien kotoutumisen ja työllistymisen edistäminen,1061000,0,1061000,1061000,3561000,3561000,-2500000,,,
-2018,Ministry of Economic Affairs and Employment,Integration,32.70.30. Valtion korvaukset kotouttamisesta,243104000,0,243104000,243104000,225053279,5,225053279,5,18050720,5
-2018,Ministry of Social Affairs and Health,Administration,33.01.01. Sosiaali- ja terveysministeriön toimintamenot,31004000,-168000,30836000,30836000,30836000,30836000,0,,,
-2018,Ministry of Social Affairs and Health,Administration,33.01.04. Valtion mielisairaaloiden toimintamenot,550000,0,550000,550000,421553,76,421553,76,128446,24
-2018,Ministry of Social Affairs and Health,Administration,33.01.05. Terveyden ja hyvinvoinnin laitoksen alaisten lastensuojeluyksiköiden toimintamenot,1106000,0,1106000,1106000,664322,49,664322,49,441677,51
-2018,Ministry of Social Affairs and Health,Administration,33.01.06. Terveyden ja hyvinvoinnin laitoksen alaisen vankiterveydenhuollon yksikön toimintamenot,16878000,1613000,18491000,18491000,18491000,18491000,0,,,
-2018,Ministry of Social Affairs and Health,Administration,33.01.07. Sosiaaliturva-asioiden muutoksenhakulautakunnan toimintamenot,7992000,196000,8188000,8188000,8188000,8188000,0,,,
-2018,Ministry of Social Affairs and Health,Administration,33.01.25. Sosiaali- ja terveydenhuollon kansalliset sähköiset asiakastietojärjestelmät,11000000,0,11000000,11000000,11000000,11000000,0,,,
-2018,Ministry of Social Affairs and Health,Administration,33.01.29. Sosiaali- ja terveysministeriön hallinnonalan arvonlisäveromenot,18729000,0,18729000,18729000,19287334,62,19287334,62,-558334,62
-2018,Ministry of Social Affairs and Health,Administration,33.01.66. Kansainväliset jäsenmaksut ja maksuosuudet,3875000,0,3875000,3875000,3875000,3875000,0,,,
-2018,Ministry of Social Affairs and Health,Supervision,33.02.03. Säteilyturvakeskuksen toimintamenot,12213000,75000,12288000,12288000,11397739,1,11397739,1,890260,9
-2018,Ministry of Social Affairs and Health,Supervision,33.02.05. Sosiaali- ja terveysalan lupa- ja valvontaviraston toimintamenot,10836000,185000,11021000,11021000,11021000,11021000,0,,,
-2018,Ministry of Social Affairs and Health,Supervision,33.02.06. Lääkealan turvallisuus- ja kehittämiskeskuksen toimintamenot,4811000,30000,4841000,4841000,3125357,6,3125357,6,1715642,94
-2018,Ministry of Social Affairs and Health,Supervision,33.02.07. Työsuojelun aluehallintoviranomaisten toimintamenot,24072000,252000,24324000,24324000,24324000,24324000,0,,,
-2018,Ministry of Social Affairs and Health,Supervision,33.02.20. Oikeuslääketieteellisen kuolemansyyn selvittämisen menot,10247000,0,10247000,10247000,10668256,52,10668256,52,-421256,52
-2018,Ministry of Social Affairs and Health,Research and development,33.03.04. Terveyden ja hyvinvoinnin laitoksen toimintamenot,52479000,773000,53252000,53252000,53252000,53252000,0,,,
-2018,Ministry of Social Affairs and Health,Research and development,33.03.25. Kansallinen genomikeskus kansallinen syöpäkeskus ja lääkekehityskeskus,7400000,0,7400000,7400000,7400000,7400000,0,,,
-2018,Ministry of Social Affairs and Health,Research and development,33.03.31. Hyvinvoinnin ja terveyden edistäminen,50500000,1000000,51500000,51500000,51500000,51500000,0,,,
-2018,Ministry of Social Affairs and Health,Research and development,33.03.50. Valtionapu Työterveyslaitoksen menoihin,23222000,0,23222000,23222000,23222000,23222000,0,,,
-2018,Ministry of Social Affairs and Health,Research and development,33.03.63. Eräät erityishankkeet,6602000,0,6602000,6602000,6602000,6602000,0,,,
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.50. Äitiysavustus ja valtion tuki kansainväliseen adoptioon,11750000,0,11750000,11750000,9360000,9360000,2390000,,,
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.51. Lapsilisät,1369900000,0,1369900000,1369900000,1362200000,1362200000,7700000,,,
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.52. Eräät valtion korvattavat perhe-etuudet,3800000,0,3800000,3800000,1958877,97,1958877,97,1841122,3
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.53. Sotilasavustus,17600000,0,17600000,17600000,16100000,16100000,1500000,,,
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.54. Asumistuki,1486500000,11200000,1497700000,1497700000,1492000000,1492000000,5700000,,,
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.55. Elatustuki,214600000,0,214600000,214600000,208899755,46,208899755,46,5700244,54
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.56. Vammaisten henkilöiden tulkkauspalvelut,49400000,0,49400000,49400000,45641597,92,45641597,92,3758402,8
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.57. Perustoimeentulotuki,818800000,-80000000,738800000,738800000,719811107,719811107,18988893,,,
-2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",33.10.60. Kansaneläkelaitoksen sosiaaliturvarahastojen toimintakulut,325000000,4741000,329741000,329741000,329741000,329741000,0,,,
-2018,Ministry of Social Affairs and Health,Unemployment benefits,33.20.31. Valtion korvaus kunnille kuntouttavan työtoiminnan järjestämisestä,26840000,0,26840000,26840000,25981960,71,25981960,71,858039,29
-2018,Ministry of Social Affairs and Health,Unemployment benefits,33.20.50. Valtionosuus ansiopäivärahasta,1005200000,-96000000,909200000,909200000,816922683,8,816922683,8,92277316,2
-2018,Ministry of Social Affairs and Health,Unemployment benefits,33.20.51. Valtionosuus peruspäivärahasta,42400000,-11900000,30500000,30500000,20846288,6,20846288,6,9653711,4
-2018,Ministry of Social Affairs and Health,Unemployment benefits,33.20.52. Valtionosuus työmarkkinatuesta,1563300000,-48300000,1515000000,1515000000,1463594162,1,1463594162,1,51405837,99
-2018,Ministry of Social Affairs and Health,Unemployment benefits,33.20.55. Valtionosuudet Työllisyysrahastolle,3730000,0,3730000,3730000,3279749,3279749,450251,,,
-2018,Ministry of Social Affairs and Health,Unemployment benefits,33.20.56. Valtionosuus vuorottelukorvauksesta,26100000,0,26100000,26100000,12604167,12604167,13495833,,,
-2018,Ministry of Social Affairs and Health,Health insurance,33.30.60. Valtion osuus sairausvakuutuslaista johtuvista menoista,2119990000,0,2119990000,2119990000,2113127343,81,2113127343,81,6862656,19
-2018,Ministry of Social Affairs and Health,Pensions,33.40.50. Valtion osuus merimieseläkekassan menoista,61000000,0,61000000,61000000,58700010,58700010,2299990,,,
-2018,Ministry of Social Affairs and Health,Pensions,33.40.51. Valtion osuus maatalousyrittäjän eläkelaista johtuvista menoista,685300000,0,685300000,685300000,679000000,679000000,6300000,,,
-2018,Ministry of Social Affairs and Health,Pensions,33.40.52. Valtion osuus yrittäjän eläkelaista johtuvista menoista,239000000,14000000,253000000,253000000,252951272,252951272,48728,,,
-2018,Ministry of Social Affairs and Health,Pensions,33.40.53. Valtion korvaus lapsen hoidon ja opiskelun ajalta kertyvästä eläkkeestä,10000000,0,10000000,10000000,7445124,7445124,2554876,,,
-2018,Ministry of Social Affairs and Health,Pensions,33.40.54. Valtion osuus maatalousyrittäjien tapaturmavakuutuksen kustannuksista,15000000,0,15000000,15000000,13682771,25,13682771,25,1317228,75
-2018,Ministry of Social Affairs and Health,Pensions,33.40.60. Valtion osuus kansaneläkelaista ja eräistä muista laeista johtuvista menoista,3580500000,0,3580500000,3580500000,3523554489,7,3523554489,7,56945510,3
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.30. Valtion korvaus sodista kärsineiden huoltoon,1250000,0,1250000,1250000,702097,95,702097,95,547902,5
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.50. Rintamalisät,12600000,0,12600000,12600000,12022486,99,12022486,99,577513,1
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.51. Sotilasvammakorvaukset,88000000,0,88000000,88000000,71227527,93,71227527,93,16772472,7
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.52. Valtion korvaus sota- ja sotilasinvalidien kuntoutus- ja hoitolaitosten kustannuksiin,40000000,0,40000000,40000000,40000000,40000000,0,,,
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.53. Valtionapu sotainvalidien puolisoiden kuntoutustoimintaan,3100000,0,3100000,3100000,3100000,3100000,0,,,
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.54. Rintama-avustus eräille ulkomaalaisille vapaaehtoisille rintamasotilaille,100000,0,100000,100000,100000,100000,0,,,
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.55. Eräät kuntoutustoiminnan menot,3500000,0,3500000,3500000,3500000,3500000,0,,,
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.56. Rintamaveteraanien kuntoutustoiminnan menot,41688000,19282000,60970000,60970000,60970000,60970000,0,,,
-2018,Ministry of Social Affairs and Health,Veteran support,33.50.57. Valtionapu rintamaveteraanien kuntoutustoimintaan,8000,0,8000,8000,8000,8000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.30. Valtion korvaus terveydenhuollon valtakunnallisen valmiuden kustannuksiin,500000,0,500000,500000,500000,500000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.31. Sosiaali- ja terveydenhuollon kansallinen kehittämisohjelma ja eräät muut menot,500000,0,500000,500000,500000,500000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.32. Valtion rahoitus terveydenhuollon yksiköille yliopistotasoiseen tutkimukseen,21000000,0,21000000,21000000,21000000,21000000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.33. Valtion korvaus terveydenhuollon yksiköille lääkäri- ja hammaslääkärikoulutuksesta aiheutuviin kustannuksiin,94700000,0,94700000,94700000,92860141,12,92860141,12,1839858,88
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.34. Valtion korvaus terveydenhuollon toimintayksiköille oikeuspsykiatrisista tutkimuksista sekä potilassiirroista aiheutuviin kustannuksiin,15200000,0,15200000,15200000,12014793,64,12014793,64,3185206,36
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.36. Valtionavustus saamenkielisten sosiaali- ja terveyspalvelujen turvaamiseksi,480000,0,480000,480000,480000,480000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.37. Valtion korvaus kunnille laittomasti maassa oleskelevien kiireellisen sosiaalihuollon kustannuksiin,5346000,0,5346000,5346000,20547,68,20547,68,5325452,32
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.38. Valtionavustus valinnanvapauden pilottihankkeiden kustannuksiin,100000000,0,100000000,100000000,100000000,100000000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.40. Valtion rahoitus lääkäri- ja lääkintähelikopteritoiminnan menoihin,28990000,0,28990000,28990000,28990000,28990000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.52. Valtion rahoitus turvakotitoiminnan menoihin,17550000,0,17550000,17550000,17550000,17550000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.63. Valtionavustus sosiaalialan osaamiskeskusten toimintaan,3000000,0,3000000,3000000,3000000,3000000,0,,,
-2018,Ministry of Social Affairs and Health,Municipal social support and health care,33.60.64. Valtion korvaus rikosasioiden sovittelun järjestämisen kustannuksiin,6850000,0,6850000,6850000,6850000,6850000,0,,,
-2018,Ministry of Social Affairs and Health,Promotion of health,33.70.20. Rokotteiden hankinta,27390000,-1000000,26390000,26390000,26390000,26390000,0,,,
-2018,Ministry of Social Affairs and Health,Promotion of health,33.70.21. Terveysvalvonta,680000,0,680000,680000,680000,680000,0,,,
-2018,Ministry of Social Affairs and Health,Promotion of health,33.70.22. Tartuntatautien valvonta,550000,0,550000,550000,550000,550000,0,,,
-2018,Ministry of Social Affairs and Health,Promotion of health,33.70.50. Terveyden edistäminen,2200000,0,2200000,2200000,2200000,2200000,0,,,
-2018,Ministry of Social Affairs and Health,Promotion of health,33.70.51. Valtion korvaus työterveyshuollon erikoislääkärikoulutuksesta aiheutuviin kustannuksiin,2900000,0,2900000,2900000,2900000,2900000,0,,,
-2018,Ministry of Social Affairs and Health,Promotion of health,33.70.52. Valtionavustus UKK-instituutin toimintaan,928000,0,928000,928000,928000,928000,0,,,
-2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,33.80.40. Valtion korvaus maatalousyrittäjien lomituspalvelujen kustannuksiin,144534000,0,144534000,144534000,131170027,41,131170027,41,13363972,59
-2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,33.80.41. Valtion korvaus turkistuottajien lomituspalvelujen kustannuksiin,2050000,0,2050000,2050000,2050000,2050000,0,,,
-2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,33.80.42. Valtion korvaus poronhoitajien sijaisavun kustannuksiin,250000,0,250000,250000,250000,250000,0,,,
-2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,33.80.50. Valtion korvaus maatalousyrittäjien ja turkistuottajien lomituspalvelujen hallintomenoihin,16140000,0,16140000,16140000,16140000,16140000,0,,,
-2018,Ministry of Social Affairs and Health,Aid for promotion of health and social welfare,33.90.50. Avustukset yhteisöille ja säätiöille terveyden ja sosiaalisen hyvinvoinnin edistämiseen,357975000,0,357975000,357975000,357975000,357975000,0,,,
-2018,Ministry of the Environment,Environmental administration operating expenses,35.01.01. Ympäristöministeriön toimintamenot,26456000,578000,27034000,27034000,27034000,27034000,0,,,
-2018,Ministry of the Environment,Environmental administration operating expenses,35.01.04. Suomen ympäristökeskuksen toimintamenot,22337000,1974000,24311000,24311000,24311000,24311000,0,,,
-2018,Ministry of the Environment,Environmental administration operating expenses,35.01.29. Ympäristöministeriön hallinnonalan arvonlisäveromenot,6435000,0,6435000,6435000,7711638,75,7711638,75,-1276638,75
-2018,Ministry of the Environment,Environmental administration operating expenses,35.01.65. Avustukset järjestöille ja ympäristönhoitoon,1835000,600000,2435000,2435000,2435000,2435000,0,,,
-2018,Ministry of the Environment,Environmental protection,35.10.20. Ympäristövahinkojen torjunta,7100000,0,7100000,7100000,7100000,7100000,0,,,
-2018,Ministry of the Environment,Environmental protection,35.10.21. Eräät luonnonsuojelun menot,2440000,0,2440000,2440000,2440000,2440000,0,,,
-2018,Ministry of the Environment,Environmental protection,35.10.22. Eräät ympäristömenot,16025000,0,16025000,16025000,16525000,16525000,-500000,,,
-2018,Ministry of the Environment,Environmental protection,35.10.52. Metsähallituksen julkiset hallintotehtävät,31806000,2954000,34760000,34760000,34760000,34760000,0,,,
-2018,Ministry of the Environment,Environmental protection,35.10.60. Siirto öljysuojarahastoon,3000000,0,3000000,3000000,3000000,3000000,0,,,
-2018,Ministry of the Environment,Environmental protection,35.10.61. Vesien- ja ympäristönhoidon edistäminen,8592000,-100000,8492000,8492000,9052000,9052000,-560000,,,
-2018,Ministry of the Environment,Environmental protection,35.10.63. Luonnonsuojelualueiden hankinta- ja korvausmenot,26630000,0,26630000,26630000,29621445,26,29621445,26,-2991445,26
-2018,Ministry of the Environment,Environmental protection,35.10.65. Öljyjätemaksulla rahoitettava öljyjätehuolto,1000000,0,1000000,1000000,1000000,1000000,0,,,
-2018,Ministry of the Environment,Environmental protection,35.10.66. Kansainvälisen yhteistyön jäsenmaksut ja rahoitusosuudet,1812000,0,1812000,1812000,1812000,1812000,0,,,
-2018,Ministry of the Environment,Environmental protection,35.10.70. Alusinvestoinnit,4100000,0,4100000,4100000,4100000,4100000,0,,,
-2018,Ministry of the Environment,"Communities, construction and housing",35.20.01. Asumisen rahoitus- ja kehittämiskeskuksen toimintamenot,4886000,40000,4926000,4926000,4926000,4926000,0,,,
-2018,Ministry of the Environment,"Communities, construction and housing",35.20.30. Vuokra-asukkaiden talousongelmien ehkäiseminen,1000000,0,1000000,1000000,1000000,1000000,0,,,
-2018,Ministry of the Environment,"Communities, construction and housing",35.20.52. Avustukset asuinrakennusten sähköisen liikenteen infrastruktuurin edistämiseen,1500000,0,1500000,1500000,1500000,1500000,0,,,
-2018,Ministry of the Environment,"Communities, construction and housing",35.20.55. Avustukset korjaustoimintaan,16500000,-12330000,4170000,4170000,4170000,4170000,0,,,
-2018,Ministry of the Environment,"Communities, construction and housing",35.20.64. Avustukset rakennusperinnön hoitoon,850000,0,850000,850000,850000,850000,0,,,
-2018,Interest on national debt,Interest on national debt,36.01.90. Valtionvelan korko,1221000000,-60000000,1161000000,1161000000,1146884095,54,1146884095,54,14115904,46
-2018,Interest on national debt,Other national debt-related expenses,36.09.20. Palkkiot ja muut menot valtionvelasta,10910000,0,10910000,10910000,3269545,63,3269545,63,7640454,37
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Promotion of material efficiency,400000,0,400000,400000,400000,400000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,"Promotion of research, development and innovation",250900000,30500000,281400000,281400000,260362670,83,260362670,83,21037329,17
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Special subsidy for the research infrastructure of VTT Ltd,1500000,0,1500000,1500000,1500000,1500000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Development of growth ecosystems and innovative public procurements,5000000,0,5000000,5000000,5000000,5000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Promotion of cleantech and bioeconomy-based solutions and commercialization of innovations,49300000,0,49300000,49300000,49300000,49300000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Subsidy for development and investments in the circular economy,2000000,0,2000000,2000000,2000000,2000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Innovation subsidy for shipbuilding,0,0,0,0,10000000,10000000,-10000000,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Interest subsidies and loss compensations for Finnvera plc,56159000,-26153000,30006000,30006000,19619946,59,19619946,59,10386053,41
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Interest and other subsidies for publicly subsidized credit on ships and exports,42300000,0,42300000,42300000,26219360,24,26219360,24,16080639,76
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,State subsidy for operations of VTT Technical Research Centre of Finland,89303000,0,89303000,89303000,89303000,89303000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Contribution to the payment of the Millennium Technology Prize,1000000,0,1000000,1000000,1000000,1000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Innovation prize aimed towards women,118000,0,118000,118000,118000,118000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Loans towards refinancing for Suomen Vientiluotto Oy,96986000,124300000,221286000,221286000,214786638,22,214786638,22,6499361,78
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Loans towards fundraising for Finnvera Oyj,10000,0,10000,10000,0,0,10000,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Loans for research and innovation ventures,141000000,20800000,161800000,161800000,161793254,95,161793254,95,6745,5
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Subordinated loans for industry modernization and development of enterprise-driven business ecosystems,6000000,0,6000000,6000000,5914375,5914375,85625,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Capital investment for Business Finland Venture Capital Oy,11800000,-5800000,6000000,6000000,6000000,6000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Operating expenses of TE Offices,163076000,1258000,164334000,164334000,163524000,163524000,810000,,,
+2018,Ministry of Economic Affairs and Employment,Economic affairs and innovation,Public employment and enterprise services,327050000,29000000,356050000,356050000,321050000,321050000,35000000,,,
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Operating expenses of the Finnish Competition and Consumer Authority,11188000,106000,11294000,11294000,11294000,11294000,0,,,
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Operating expenses of the Finnish Patent and Registration Office,9247000,-2700000,6547000,6547000,-1564660,8,-1564660,8,8111660,8
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Operating expenses of the Finnish Safety and Chemicals Agency,19071000,147000,19218000,19218000,19218000,19218000,0,,,
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Remuneration for organizing of financial and debt counseling,4731000,0,4731000,4731000,4731000,4731000,0,,,
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",State subsidy for consumer associations,872000,0,872000,872000,872000,872000,0,,,
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Certain sailor services,2572000,0,2572000,2572000,1548651,83,1548651,83,1023348,17
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Employer insolvency compensation,32000000,0,32000000,32000000,25141422,8,25141422,8,6858577,2
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Passenger return transport and remuneration,1000000,0,1000000,1000000,1000000,1000000,0,,,
+2018,Ministry of Economic Affairs and Employment,"Business operating environment, regulation and working life",Certain litigation costs and remunerations,50000,0,50000,50000,0,0,50000,,,
+2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,Start-up expenses of regional innovations and experiments,10000000,7708000,17708000,17708000,17708000,17708000,0,,,
+2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,Support of enterprise development projects,12171000,4000000,16171000,16171000,12069408,12069408,4101592,,,
+2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,Internationalization aid for enterprise joint ventures,1300000,0,1300000,1300000,426378,5,426378,5,873621,5
+2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,Regional transport subsidy,5000000,0,5000000,5000000,5000000,5000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,"EU and state contributions to EU structural funds, border cooperation and other cohesion political programmes",361478000,0,361478000,361478000,334422347,76,334422347,76,27055652,24
+2018,Ministry of Economic Affairs and Employment,Regional development and structural funds,Employment based transfer expenses for investments,1700000,0,1700000,1700000,0,0,1700000,,,
+2018,Ministry of Economic Affairs and Employment,Energy policy,Operating expenses of the Energy Authority,6513000,50000,6563000,6563000,6563000,6563000,0,,,
+2018,Ministry of Economic Affairs and Employment,Energy policy,Promotion of energy efficiency and use of renewable energy,3500000,0,3500000,3500000,3500000,3500000,0,,,
+2018,Ministry of Economic Affairs and Employment,Energy policy,Energy subsidy,57694000,0,57694000,57694000,30708102,45,30708102,45,26985897,55
+2018,Ministry of Economic Affairs and Employment,Energy policy,Investment subsidy for LNG terminals,20482000,-6652000,13830000,13830000,13830000,13830000,0,,,
+2018,Ministry of Economic Affairs and Employment,Energy policy,State subsidy for securing electricity supply,0,135000,135000,135000,9590,88,9590,88,125409,12
+2018,Ministry of Economic Affairs and Employment,Energy policy,Kyoto mechanisms,220000,0,220000,220000,131111,39,131111,39,88888,61
+2018,Ministry of Economic Affairs and Employment,Energy policy,Renewable energy production subsidy,314100000,-51900000,262200000,262200000,249808985,11,249808985,11,12391014,89
+2018,Ministry of Economic Affairs and Employment,Energy policy,Renewable energy and new energy technology investment subsidy,40000000,0,40000000,40000000,40000000,40000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Energy policy,Compensation subsidy for indirect costs of emissions trading,27000000,0,27000000,27000000,26752203,65,26752203,65,247796,35
+2018,Ministry of Economic Affairs and Employment,Energy policy,Promotion of development of electric transportation and natural gas transport infrastructure,3000000,0,3000000,3000000,3000000,3000000,0,,,
+2018,Ministry of Economic Affairs and Employment,Integration,Improving immigrant integration and employment,1061000,0,1061000,1061000,3561000,3561000,-2500000,,,
+2018,Ministry of Economic Affairs and Employment,Integration,State subsidies for integration,243104000,0,243104000,243104000,225053279,5,225053279,5,18050720,5
+2018,Ministry of Social Affairs and Health,Administration,Operating expenses of the Ministry of Social Affairs and Health,31004000,-168000,30836000,30836000,30836000,30836000,0,,,
+2018,Ministry of Social Affairs and Health,Administration,Operating expenses of state psychiatric hospitals,550000,0,550000,550000,421553,76,421553,76,128446,24
+2018,Ministry of Social Affairs and Health,Administration,Operating expenses of child welfare services under the National Institute for Health and Welfare,1106000,0,1106000,1106000,664322,49,664322,49,441677,51
+2018,Ministry of Social Affairs and Health,Administration,Operating expenses of prisoner healthcare under the National Institute for Health and Welfare,16878000,1613000,18491000,18491000,18491000,18491000,0,,,
+2018,Ministry of Social Affairs and Health,Administration,Operating expenses of the Social Security Appeal Board,7992000,196000,8188000,8188000,8188000,8188000,0,,,
+2018,Ministry of Social Affairs and Health,Administration,National customer information systems for social security and healthcare,11000000,0,11000000,11000000,11000000,11000000,0,,,
+2018,Ministry of Social Affairs and Health,Administration,Expenses on value added taxes,18729000,0,18729000,18729000,19287334,62,19287334,62,-558334,62
+2018,Ministry of Social Affairs and Health,Administration,International membership fees and contributions,3875000,0,3875000,3875000,3875000,3875000,0,,,
+2018,Ministry of Social Affairs and Health,Supervision,Operating expenses of the Radiation and Nuclear Safety Authority,12213000,75000,12288000,12288000,11397739,1,11397739,1,890260,9
+2018,Ministry of Social Affairs and Health,Supervision,Operating expenses of the National Supervisory Authority for Welfare and Health,10836000,185000,11021000,11021000,11021000,11021000,0,,,
+2018,Ministry of Social Affairs and Health,Supervision,Operating expenses of Finnish Medicines Agency Fimea,4811000,30000,4841000,4841000,3125357,6,3125357,6,1715642,94
+2018,Ministry of Social Affairs and Health,Supervision,Operating expenses of regional occupational safety and health administration,24072000,252000,24324000,24324000,24324000,24324000,0,,,
+2018,Ministry of Social Affairs and Health,Supervision,Forensic pathology expenses,10247000,0,10247000,10247000,10668256,52,10668256,52,-421256,52
+2018,Ministry of Social Affairs and Health,Research and development,Operating expenses of the National Institute for Health and Welfare,52479000,773000,53252000,53252000,53252000,53252000,0,,,
+2018,Ministry of Social Affairs and Health,Research and development,"National Genomics Centre, National Cancer Centre and Medicine Development Centre",7400000,0,7400000,7400000,7400000,7400000,0,,,
+2018,Ministry of Social Affairs and Health,Research and development,Promotion of health and welfare,50500000,1000000,51500000,51500000,51500000,51500000,0,,,
+2018,Ministry of Social Affairs and Health,Research and development,State subsidy for expenses of the Finnish Institute of Occupational Health,23222000,0,23222000,23222000,23222000,23222000,0,,,
+2018,Ministry of Social Affairs and Health,Research and development,Certain special projects,6602000,0,6602000,6602000,6602000,6602000,0,,,
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Maternal aid and state subsidy for international adoptions,11750000,0,11750000,11750000,9360000,9360000,2390000,,,
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Child benefits,1369900000,0,1369900000,1369900000,1362200000,1362200000,7700000,,,
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Certain state family benefits,3800000,0,3800000,3800000,1958877,97,1958877,97,1841122,3
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Military service benefit,17600000,0,17600000,17600000,16100000,16100000,1500000,,,
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Housing allowance,1486500000,11200000,1497700000,1497700000,1492000000,1492000000,5700000,,,
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Child maintenance allowance,214600000,0,214600000,214600000,208899755,46,208899755,46,5700244,54
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Disabled person interpretation services,49400000,0,49400000,49400000,45641597,92,45641597,92,3758402,8
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Basic social assistance,818800000,-80000000,738800000,738800000,719811107,719811107,18988893,,,
+2018,Ministry of Social Affairs and Health,"Family and housing benefits, basic social support",Operating expenses of social security funds of the Social Insurance Institution Kela,325000000,4741000,329741000,329741000,329741000,329741000,0,,,
+2018,Ministry of Social Affairs and Health,Unemployment benefits,State contribution to municipalities for organizing rehabilitating work activities,26840000,0,26840000,26840000,25981960,71,25981960,71,858039,29
+2018,Ministry of Social Affairs and Health,Unemployment benefits,State contribution to earnings-related allowance,1005200000,-96000000,909200000,909200000,816922683,8,816922683,8,92277316,2
+2018,Ministry of Social Affairs and Health,Unemployment benefits,State contribution to basic unemployment allowance,42400000,-11900000,30500000,30500000,20846288,6,20846288,6,9653711,4
+2018,Ministry of Social Affairs and Health,Unemployment benefits,State contribution to labour market subsidy,1563300000,-48300000,1515000000,1515000000,1463594162,1,1463594162,1,51405837,99
+2018,Ministry of Social Affairs and Health,Unemployment benefits,State contribution to the Employment Fund,3730000,0,3730000,3730000,3279749,3279749,450251,,,
+2018,Ministry of Social Affairs and Health,Unemployment benefits,State contribution to job alternation compensation,26100000,0,26100000,26100000,12604167,12604167,13495833,,,
+2018,Ministry of Social Affairs and Health,Health insurance,State contribution to health insurance legislation-related expenses,2119990000,0,2119990000,2119990000,2113127343,81,2113127343,81,6862656,19
+2018,Ministry of Social Affairs and Health,Pensions,State contribution to expenses of the sailor pension fund,61000000,0,61000000,61000000,58700010,58700010,2299990,,,
+2018,Ministry of Social Affairs and Health,Pensions,State contribution to farmer pension legislation-related expenses,685300000,0,685300000,685300000,679000000,679000000,6300000,,,
+2018,Ministry of Social Affairs and Health,Pensions,State contirbution to enterpreneur pension legislation-related expenses,239000000,14000000,253000000,253000000,252951272,252951272,48728,,,
+2018,Ministry of Social Affairs and Health,Pensions,State subsidy for pension earned during childcare and studying,10000000,0,10000000,10000000,7445124,7445124,2554876,,,
+2018,Ministry of Social Affairs and Health,Pensions,State contribution to farmer accident insurance expenses,15000000,0,15000000,15000000,13682771,25,13682771,25,1317228,75
+2018,Ministry of Social Affairs and Health,Pensions,State contribution to expenses related to national pension legislation and certain other laws,3580500000,0,3580500000,3580500000,3523554489,7,3523554489,7,56945510,3
+2018,Ministry of Social Affairs and Health,Veteran support,State subsidy for care of war survivors,1250000,0,1250000,1250000,702097,95,702097,95,547902,5
+2018,Ministry of Social Affairs and Health,Veteran support,Veteran allowance,12600000,0,12600000,12600000,12022486,99,12022486,99,577513,1
+2018,Ministry of Social Affairs and Health,Veteran support,War injury allowance,88000000,0,88000000,88000000,71227527,93,71227527,93,16772472,7
+2018,Ministry of Social Affairs and Health,Veteran support,State contribution to expenses of rehabilitation and care centres for disabled veterans,40000000,0,40000000,40000000,40000000,40000000,0,,,
+2018,Ministry of Social Affairs and Health,Veteran support,State aid to rehabilitation of spouses of disabled veterans,3100000,0,3100000,3100000,3100000,3100000,0,,,
+2018,Ministry of Social Affairs and Health,Veteran support,Veteran allowance to certain foreign voluntary soldiers,100000,0,100000,100000,100000,100000,0,,,
+2018,Ministry of Social Affairs and Health,Veteran support,Certain rehabilitation expenses,3500000,0,3500000,3500000,3500000,3500000,0,,,
+2018,Ministry of Social Affairs and Health,Veteran support,Veteran rehabilitation expenses,41688000,19282000,60970000,60970000,60970000,60970000,0,,,
+2018,Ministry of Social Affairs and Health,Veteran support,State aid to rehabilitation of veterans,8000,0,8000,8000,8000,8000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State contribution to expenses of national healthcare readiness,500000,0,500000,500000,500000,500000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,National development programme for social security and healthcare and certain other expenses,500000,0,500000,500000,500000,500000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State funding for academic research in healthcare units,21000000,0,21000000,21000000,21000000,21000000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State remuneration to healthcare units for medicine and dentistry education-related expenses,94700000,0,94700000,94700000,92860141,12,92860141,12,1839858,88
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State remuneration to healthcare units for forensic psychiatry and patient transfer-related expenses,15200000,0,15200000,15200000,12014793,64,12014793,64,3185206,36
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State aid for securing social and healthcare services in sámi language,480000,0,480000,480000,480000,480000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State remuneration to municipalities for urgent social care of illegal immigrants,5346000,0,5346000,5346000,20547,68,20547,68,5325452,32
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State aid for freedom of choice-related pilot project expenses,100000000,0,100000000,100000000,100000000,100000000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State funding for medical and air ambulance services expenses,28990000,0,28990000,28990000,28990000,28990000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State funding for shelters for victims of domestic violence,17550000,0,17550000,17550000,17550000,17550000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State aid for centres of expertise in the social services field,3000000,0,3000000,3000000,3000000,3000000,0,,,
+2018,Ministry of Social Affairs and Health,Municipal social support and health care,State remuneration for criminal matters arbitration-related expenses,6850000,0,6850000,6850000,6850000,6850000,0,,,
+2018,Ministry of Social Affairs and Health,Promotion of health,Vaccine acquisitions,27390000,-1000000,26390000,26390000,26390000,26390000,0,,,
+2018,Ministry of Social Affairs and Health,Promotion of health,Health supervision,680000,0,680000,680000,680000,680000,0,,,
+2018,Ministry of Social Affairs and Health,Promotion of health,Control of infectious diseases,550000,0,550000,550000,550000,550000,0,,,
+2018,Ministry of Social Affairs and Health,Promotion of health,Promotion of health,2200000,0,2200000,2200000,2200000,2200000,0,,,
+2018,Ministry of Social Affairs and Health,Promotion of health,State remuneration for occupational health services specialist training-related expenses,2900000,0,2900000,2900000,2900000,2900000,0,,,
+2018,Ministry of Social Affairs and Health,Promotion of health,State aid for the operating expenses of the UKK Institute,928000,0,928000,928000,928000,928000,0,,,
+2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,State remuneration for farmer holiday and stand-in services related expenses,144534000,0,144534000,144534000,131170027,41,131170027,41,13363972,59
+2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,State remuneration for fur producer holiday and stand-in services related expenses,2050000,0,2050000,2050000,2050000,2050000,0,,,
+2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,State remuneration for reindeer herder stand-in allowance,250000,0,250000,250000,250000,250000,0,,,
+2018,Ministry of Social Affairs and Health,Holiday and stand-in scheme for farmers and fur producers,State remuneration for farmer and fur producer holiday and stand-in scheme administrative expenses,16140000,0,16140000,16140000,16140000,16140000,0,,,
+2018,Ministry of Social Affairs and Health,Aid for promotion of health and social welfare,Subsidies to associations and institutes for promotion of health and social welfare,357975000,0,357975000,357975000,357975000,357975000,0,,,
+2018,Ministry of the Environment,Environmental administration operating expenses,Operating expenses of the Ministry of the Environment,26456000,578000,27034000,27034000,27034000,27034000,0,,,
+2018,Ministry of the Environment,Environmental administration operating expenses,Operating expenses of the Finnish Environment Institute,22337000,1974000,24311000,24311000,24311000,24311000,0,,,
+2018,Ministry of the Environment,Environmental administration operating expenses,Expenses on value added taxes,6435000,0,6435000,6435000,7711638,75,7711638,75,-1276638,75
+2018,Ministry of the Environment,Environmental administration operating expenses,Grants to associations and for environmental care,1835000,600000,2435000,2435000,2435000,2435000,0,,,
+2018,Ministry of the Environment,Environmental protection,Prevention of environmental damages,7100000,0,7100000,7100000,7100000,7100000,0,,,
+2018,Ministry of the Environment,Environmental protection,Certain nature protection expenses,2440000,0,2440000,2440000,2440000,2440000,0,,,
+2018,Ministry of the Environment,Environmental protection,Certain environmental expenses,16025000,0,16025000,16025000,16525000,16525000,-500000,,,
+2018,Ministry of the Environment,Environmental protection,Public administrative tasks of Metsähallitus,31806000,2954000,34760000,34760000,34760000,34760000,0,,,
+2018,Ministry of the Environment,Environmental protection,Transfer to oil damages protection fund,3000000,0,3000000,3000000,3000000,3000000,0,,,
+2018,Ministry of the Environment,Environmental protection,Promotion of care for water systems and the environment,8592000,-100000,8492000,8492000,9052000,9052000,-560000,,,
+2018,Ministry of the Environment,Environmental protection,Nature reserve acquisition costs and remuneration costs,26630000,0,26630000,26630000,29621445,26,29621445,26,-2991445,26
+2018,Ministry of the Environment,Environmental protection,Oil waste services funded by oil waste fees,1000000,0,1000000,1000000,1000000,1000000,0,,,
+2018,Ministry of the Environment,Environmental protection,International cooperation membership fees and contributions,1812000,0,1812000,1812000,1812000,1812000,0,,,
+2018,Ministry of the Environment,Environmental protection,Ship investments,4100000,0,4100000,4100000,4100000,4100000,0,,,
+2018,Ministry of the Environment,"Communities, construction and housing",Operating expenses of the Housing Finance and Development Centre of Finland,4886000,40000,4926000,4926000,4926000,4926000,0,,,
+2018,Ministry of the Environment,"Communities, construction and housing",Preventation of financial problems for tenants,1000000,0,1000000,1000000,1000000,1000000,0,,,
+2018,Ministry of the Environment,"Communities, construction and housing",Financial aid for development of residential electric transport infrastructure,1500000,0,1500000,1500000,1500000,1500000,0,,,
+2018,Ministry of the Environment,"Communities, construction and housing",Financial aid for renovations,16500000,-12330000,4170000,4170000,4170000,4170000,0,,,
+2018,Ministry of the Environment,"Communities, construction and housing",Financial aid for protection of built cultural environment,850000,0,850000,850000,850000,850000,0,,,
+2018,Interest on national debt,Interest on national debt,Interest on national debt,1221000000,-60000000,1161000000,1161000000,1146884095,54,1146884095,54,14115904,46
+2018,Interest on national debt,Other national debt-related expenses,Remunerations and other expenses on national debt,10910000,0,10910000,10910000,3269545,63,3269545,63,7640454,37

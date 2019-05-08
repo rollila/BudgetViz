@@ -2,10 +2,11 @@
   <div class="main">
     <div class="introduction">
       <p>This page contains a visual representation of budget data of the Finnish government for year 2018. The visualization has been implemented for the Interactive Data Visualization course at Uni. Helsinki.
-      <br>
-      Currently implemented: tax income, explorable by category.
-      <br>
-      To be implemented: Spending.</p>      
+        <br>
+        The data is split into two charts: tax income and spending. Income besides spending is not shown.
+        <br>
+        You can interact with the chart by clicking on sections or by clicking on legend items. This will open up the chosen section for further investigation.
+      </p>
     </div>
     <Taxes :data="taxData" class="taxes"/>
     <Spending :data="spendingData"/>
@@ -69,20 +70,6 @@ export default {
           return acc;
         }, {})
       }));
-/*
-      return Talousarvio.reduce((acc, item) => {
-        const headkey = item[HEAD_KEY];
-        if (acc[headkey] == null) {
-          acc[headkey] = {
-            total: item[VAL_KEY],
-            items: [item]
-          };
-        } else {
-          acc[headkey].items.push(item);
-          acc[headkey].total += item[VAL_KEY];
-        }
-        return acc;
-      }, {});      */
     }
   }
 }

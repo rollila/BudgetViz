@@ -4,15 +4,38 @@
     <div class="canvas-container">
       <canvas ref="canvas"/>
     </div>
+    <div class="legend-container">
+      <h4>{{ legendHeader }}</h4>
+      <template v-if="activeDataset != null">
+        <div v-for="i in activeDataset.labels.length" :key="i" class="legend-block">
+          <div
+            class="legend-colorbox"
+            :class="{ 'legend-colorbox--clickable': selectedCenterIndex == null }"
+            :style="{ 'background-color': activeDataset.backgroundColor[i - 1] }"
+            @click="onClickLegend(i - 1)"
+            @mouseenter="onHoverLegend(i - 1, true)"
+            @mouseleave="onHoverLegend(i - 1, false)"
+          />
+          <span
+            :title="activeDataset.labels[i - 1]"
+            class="legend-label">
+            {{ activeDataset.labels[i - 1] }}
+          </span>
+          <span class="legend-value">: {{ formatCurrency(activeDataset.data[i - 1]) }}</span>
+        </div>
+      </template>
+    </div>
   </div>
 </template>
 
 <script>
-/* eslint-disable */
-
 import Chart from 'chart.js';
+/* eslint-disable-next-line */
 import ChartJsPlugin from 'chartjs-plugin-labels';
+import chroma from 'chroma-js';
 import numeral from 'numeral';
+
+Chart.Tooltip.positioners.custom = (elements) =>  ({x: elements[0]._chart.chartArea.right / 2, y: 0 })
 
 import { getPalette } from './colors';
 
@@ -30,6 +53,9 @@ export default {
     };    
   },
   computed: {
+    activeDataset() {
+      return this.datasets[0];
+    },
     outerDataset() {
       if (this.selectedInnerIndex == null || this.selectedCenterIndex == null) return null;
 
@@ -40,7 +66,9 @@ export default {
         labels: dataset.items.map(item => item['Momentti']),
         backgroundColor: getPalette(dataset.items.length),
         borderColor: 'rgb(0, 0, 0)',
-        position: 'outer'
+        position: 'outer',
+        weight: 5,
+        hoverBackgroundColor: getPalette(dataset.items.length)
       };
     },
     centerDataset() {
@@ -51,9 +79,10 @@ export default {
       return {
         data: Object.keys(dataset).map(item => dataset[item].total).filter(item => item != null),
         labels: Object.keys(dataset).filter(item => item !== 'label' && item !== 'total'),
-        backgroundColor: getPalette(Object.keys(dataset).length),
-        borderColor: 'rgb(0, 0, 0)',
-        position: 'center'
+        backgroundColor: getPalette(Object.keys(dataset).filter(item => item !== 'label' && item !== 'total').length),
+        borderColor: Object.keys(dataset).map(() => 'rgb(0, 0, 0)'),
+        position: 'center',
+        weight: 2
       }
     },
     innerDataset() {
@@ -61,13 +90,24 @@ export default {
         data: this.data.map(item => item.total).filter(item => item != null),
         labels: this.data.map(item => item.label).filter(item => item !== 'label' && item !== 'total'),
         backgroundColor: getPalette(this.data.length),
-        borderColor: 'rgb(0, 0, 0)',
-        hoverBorderColor: 'rgb(30, 190, 230)',
+        borderColor: this.data.map(() => 'rgb(0, 0, 0)'),
         position: 'inner'
       }
     },
     datasets() {
       return [this.outerDataset, this.centerDataset, this.innerDataset].filter(item => item != null);
+    },
+    legendHeader() {
+      if (this.selectedInnerIndex == null) {
+        return `Total spending: ${this.formatCurrency(this.totalSpending)}`;
+      }
+      if (this.selectedCenterIndex == null) {
+        return `${this.data[this.selectedInnerIndex].label}: ${this.formatCurrency(this.data[this.selectedInnerIndex].total)}`
+      }
+      return `${this.selectedCenterIndex}: ${this.formatCurrency(this.data[this.selectedInnerIndex][this.selectedCenterIndex].total)}`;
+    },
+    totalSpending() {
+      return this.data.reduce((sum, item) => sum + item.total, 0);
     }
   },
   mounted() {
@@ -79,9 +119,6 @@ export default {
         datasets: this.datasets
       },
       options: {
-        onHover() {
-          component.chart.update();
-        },
         onClick(event, chartElements) {
           const el = chartElements[0];
           if (!el) return;
@@ -92,43 +129,17 @@ export default {
             || (activeDatasets.length === 2 && el._datasetIndex === 1)
             || (activeDatasets.length === 3 && el._datasetIndex === 2);
 
-          if (clickedInner) {
-            component.selectedCenterIndex = null;
-            const innerDataset = activeDatasets.find(set => set.position === 'inner');
-            const palette = getPalette(innerDataset.data.length);
-
-            if (el._index === component.selectedInnerIndex) {              
-              innerDataset.backgroundColor = palette;
-              component.selectedInnerIndex = null;
-            } else {
-              innerDataset.backgroundColor = innerDataset.data.map(item => 'rgb(100, 100, 100)');
-              innerDataset.backgroundColor[el._index] = palette[el._index];
-
-              component.selectedInnerIndex = el._index;
-            }
-          }
-
           const clickedCenter = (activeDatasets.length === 2 && el._datasetIndex === 0) || (activeDatasets.length === 3 && el._datasetIndex === 1);
 
-          if (clickedCenter) {
-            const targetIndex = component.chart.data.datasets[el._datasetIndex].labels[el._index]
-            const centerDataset = activeDatasets.find(set => set.position === 'center');
-            const palette = getPalette(centerDataset.data.length);
-
-            if(targetIndex === component.selectedCenterIndex) {
-              centerDataset.backgroundColor = palette;
-              component.selectedCenterIndex = null;              
-            } else {
-              centerDataset.backgroundColor = centerDataset.data.map(item => 'rgb(100, 100, 100)');
-              centerDataset.backgroundColor[el._index] = palette[el._index];
-              component.selectedCenterIndex = targetIndex;
-            }
+          if (clickedInner) {
+            component.onSelectInnerIndex(el._index);            
+          } else if (clickedCenter) {
+            component.onSelectCenterIndex(el._index)
           }
-          
-          component.chart.data.datasets = component.datasets;
-          component.chart.update();
         },
         tooltips: {
+          position: 'custom',
+          caretSize: 0,
           callbacks: {
             label(tooltipItem, data) {
               const title = data.datasets[tooltipItem.datasetIndex].labels[tooltipItem.index];
@@ -155,6 +166,65 @@ export default {
   methods: {
     formatCurrency(amount) {
       return `${numeral(amount).format('0.00a')} €`;
+    },
+    onClickLegend(index) {
+      if (this.selectedCenterIndex == null && this.selectedInnerIndex != null) {
+        this.onSelectCenterIndex(index); 
+      } else if (this.selectedInnerIndex == null) {
+        this.onSelectInnerIndex(index);
+      }
+    },
+    onSelectCenterIndex(index) {
+      const datasetIndex = this.datasets.findIndex(set => set.position === 'center');
+      const centerDataset = this.datasets[datasetIndex];
+      const targetKey = centerDataset.labels[index];
+      const palette = getPalette(centerDataset.data.length);
+
+      if(targetKey === this.selectedCenterIndex) {
+        centerDataset.backgroundColor = palette;
+        this.selectedCenterIndex = null;              
+      } else {
+        centerDataset.backgroundColor = centerDataset.data.map(() => 'rgb(100, 100, 100)');
+        centerDataset.backgroundColor[index] = palette[index];
+        this.selectedCenterIndex = targetKey;
+      }
+      
+      this.chart.data.datasets = this.datasets;
+      this.chart.update();
+    },
+    onSelectInnerIndex(index) {
+      this.selectedCenterIndex = null;
+      const innerDataset = this.datasets.find(set => set.position === 'inner');
+      const palette = getPalette(innerDataset.data.length);
+
+      if (index === this.selectedInnerIndex) {              
+        innerDataset.backgroundColor = palette;
+        this.selectedInnerIndex = null;
+      } else {
+        innerDataset.backgroundColor = innerDataset.data.map(() => 'rgb(100, 100, 100)');
+        innerDataset.backgroundColor[index] = palette[index];
+
+        this.selectedInnerIndex = index;
+      }
+
+      this.chart.data.datasets = this.datasets;
+      this.chart.update();
+    },
+    onHoverLegend(index, hoverState) {
+      if (this.selectedCenterIndex != null) return;
+      const activeDataset = this.selectedInnerIndex == null
+        ? this.datasets.find(set => set.position === 'inner')
+        : this.datasets.find(set => set.position === 'center');
+
+      const currentColor = activeDataset.backgroundColor[index];
+      if (hoverState) {
+        activeDataset.backgroundColor[index] = chroma(currentColor).saturate(1).darken(0.3);
+        activeDataset.borderColor[index] = 'rgb(210, 210, 210)';
+      } else {
+        activeDataset.backgroundColor[index] = getPalette(activeDataset.data.length)[index];
+        activeDataset.borderColor[index] = 'rgb(0, 0, 0)';
+      }      
+      this.chart.update();
     }
   }
 }
@@ -164,6 +234,11 @@ export default {
 .spending-container {
   max-width: 1100px;
 
+  h4 {
+    margin-top: 0;
+    color: #fff;
+  }
+
   .spending-heading {
     height: 60px;
     
@@ -171,6 +246,54 @@ export default {
     text-align: left;
     font-size: 48px;
     color: rgb(210, 190, 140);
+  }
+
+  .legend-container {
+    margin: 20px auto;
+    max-width: 500px;
+    
+    padding: 15px;
+
+    font-size: 15px;
+    
+    text-align: left;
+    background-color: rgb(60, 60, 60);
+    border-radius: 4px;
+
+    .legend-label {
+      margin-left: 6px;
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 375px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .legend-value {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .legend-block {
+      margin-bottom: 3px;
+    }
+
+    .legend-colorbox {
+      display: inline-block;
+      vertical-align: middle;
+      height: 15px;
+      width: 30px;
+      border: 1px solid transparent;
+
+      &--clickable {
+        cursor: pointer;
+
+        &:hover {
+          border: 1px solid rgb(210, 210, 210);
+        }        
+      }
+    }
   }
 
 }
